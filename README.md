@@ -6,7 +6,7 @@ MISFIT characterizes fitting difficulty across training environments and relates
 
 Start with the synthetic example below. It runs on CPU and needs no original cohort data, archived predictions or downloaded models. Research results and pretrained models are not bundled; the existing HTML demo video and poster are the only included result media.
 
-**Gang Qu · Guanghao Li · Zhengming Ding · Yipu Zhang · Zhongming Zhao**
+**Gang Qu · Guanghao Li · Zhengming Ding · Yipu Zhang · Xiaoqian Jiang · Zhongming Zhao**
 
 [Quick start](#quick-start) · [How the example works](#how-the-example-works) · [Brain-map explorer](#brain-map-explorer) · [Optional manuscript replay](#optional-manuscript-replay) · [Citation](CITATION.cff)
 
