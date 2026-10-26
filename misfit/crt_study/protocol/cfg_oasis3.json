@@ -1,0 +1,96 @@
+{
+  "cohort": "oasis3",
+  "epochs": 50,
+  "bs": 16,
+  "lr": 0.0001,
+  "wd": 0.0001,
+  "ckpts": [
+    10,
+    25,
+    50
+  ],
+  "el2n_ep": 1,
+  "pool": 2,
+  "norm_mu": 0.083552,
+  "norm_sd": 0.185059,
+  "input_shape": [
+    60,
+    72,
+    60
+  ],
+  "arch": "CNN3D_backbone",
+  "arch_shapes": {
+    "body.0.bias": [
+      8
+    ],
+    "body.0.weight": [
+      8,
+      1,
+      3,
+      3,
+      3
+    ],
+    "body.1.bias": [
+      8
+    ],
+    "body.1.weight": [
+      8
+    ],
+    "body.12.bias": [
+      64
+    ],
+    "body.12.weight": [
+      64,
+      32,
+      3,
+      3,
+      3
+    ],
+    "body.13.bias": [
+      64
+    ],
+    "body.13.weight": [
+      64
+    ],
+    "body.4.bias": [
+      16
+    ],
+    "body.4.weight": [
+      16,
+      8,
+      3,
+      3,
+      3
+    ],
+    "body.5.bias": [
+      16
+    ],
+    "body.5.weight": [
+      16
+    ],
+    "body.8.bias": [
+      32
+    ],
+    "body.8.weight": [
+      32,
+      16,
+      3,
+      3,
+      3
+    ],
+    "body.9.bias": [
+      32
+    ],
+    "body.9.weight": [
+      32
+    ],
+    "head.bias": [
+      2
+    ],
+    "head.weight": [
+      2,
+      64
+    ]
+  },
+  "opt": "Adam"
+}

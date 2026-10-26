@@ -1,0 +1,62 @@
+{
+  "created": "2026-10-22",
+  "purpose": "Offline and GitHub Pages-ready playback companion for the existing MISFIT brain-map video",
+  "new_statistical_analysis": false,
+  "patient_level_inputs_included": false,
+  "media_unchanged": true,
+  "duration_seconds": 45,
+  "frames_per_second": 20,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "codec": "H.264",
+  "chapters": [
+    {
+      "cohort": "OASIS-3",
+      "start": 0,
+      "end": 15,
+      "participants": 1360
+    },
+    {
+      "cohort": "ADNI",
+      "start": 15,
+      "end": 30,
+      "participants": 547,
+      "acquisitions": 731
+    },
+    {
+      "cohort": "OASIS-1",
+      "start": 30,
+      "end": 45,
+      "participants": 226
+    }
+  ],
+  "display": {
+    "limits": [
+      -2.6,
+      2.6
+    ],
+    "absolute_threshold": 0.8,
+    "threshold_is_statistical_significance": false,
+    "palette": "RdBu_r",
+    "background": "MNI152 anatomical template",
+    "navigation": "Axial, coronal and sagittal native slice sweeps; not longitudinal time"
+  },
+  "assets": [
+    {
+      "path": "assets/brain-maps.mp4",
+      "sha256": "1442865184e46b4a4767fe3c599bc122c56c5cac3bc8de01d8684ee6a349ab98"
+    },
+    {
+      "path": "assets/poster.png",
+      "sha256": "7e67cbfa40b20dddf8b0eebbb444fee3263b974c9035b7b2d2814e644e5482e3"
+    }
+  ],
+  "aggregate_map_source_sha256": {
+    "oasis3": "659f0ab1f96a52125af9058db81201ac05fd138c9e1005b0fa57a2c6c31330aa",
+    "adni": "3856642dac9e35d38f9782cd72f1fdad0730b15a9869cff6f3dc30e2f54662c2",
+    "oasis1": "e6c650bcece36d6df9faa742053d9e79751e97bb3315a7cac669dddc13698c50"
+  },
+  "release_note": "Code is MIT licensed. Third-party template and dataset terms continue to apply to derived scientific media."
+}

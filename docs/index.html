@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore MISFIT brain association maps in axial, coronal and sagittal views across OASIS-3, ADNI and OASIS-1.">
+  <meta name="color-scheme" content="light">
+  <title>MISFIT · Brain-map explorer</title>
+  <link rel="icon" href="assets/poster.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="viewer-core.js"></script>
+  <script defer src="viewer.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#explorer">Skip to the brain-map viewer</a>
+  <main class="shell">
+    <header class="page-header">
+      <div class="identity"><span class="brand">MISFIT</span><span class="identity-rule"></span><span>Interactive research companion</span></div>
+      <p class="eyebrow">Three cohorts · Three anatomical planes</p>
+      <h1>Explore the anatomical associations.</h1>
+      <p class="intro">Navigate the gray-matter association maps for fitting difficulty. Choose a cohort, pause on a slice, or move through the brain at your own pace.</p>
+    </header>
+
+    <section class="explorer" id="explorer" aria-label="Interactive brain-map viewer">
+      <nav class="cohort-tabs" aria-label="Choose a cohort">
+        <button type="button" class="cohort-button selected" data-cohort="oasis3" aria-pressed="true"><span class="cohort-index">01</span><span>OASIS-3</span><span class="chapter-time">0–15 s</span></button>
+        <button type="button" class="cohort-button" data-cohort="adni" aria-pressed="false"><span class="cohort-index">02</span><span>ADNI</span><span class="chapter-time">15–30 s</span></button>
+        <button type="button" class="cohort-button" data-cohort="oasis1" aria-pressed="false"><span class="cohort-index">03</span><span>OASIS-1</span><span class="chapter-time">30–45 s</span></button>
+      </nav>
+      <div class="viewer-context">
+        <div><strong id="cohort-status" aria-live="polite">OASIS-3</strong><span id="cohort-sample">1,360 participants</span></div>
+        <span class="plane-note">Axial / Coronal / Sagittal</span>
+      </div>
+
+      <div class="video-stage" id="video-stage">
+        <video id="brain-video" controls playsinline preload="metadata" poster="assets/poster.png" aria-label="Spatial slice sweeps through three aggregate brain association maps" aria-describedby="interpretation">
+          <source src="assets/brain-maps.mp4" type="video/mp4">
+          Your browser cannot play this video. <a href="assets/brain-maps.mp4">Download the MP4</a> to view it in a video player.
+        </video>
+      </div>
+
+      <div class="custom-controls" id="custom-controls" hidden>
+        <div class="timeline-row">
+          <output id="current-time" for="timeline">00:00</output>
+          <input id="timeline" type="range" min="0" max="44.95" step="0.05" value="0" aria-label="Playback position" aria-valuetext="00:00 of 00:45">
+          <span class="duration">00:45</span>
+        </div>
+        <div class="button-row">
+          <div class="transport">
+            <button type="button" id="play-pause" class="primary" aria-label="Play video">Play</button>
+            <button type="button" id="previous-frame" title="Pause and go back one frame" aria-label="Previous frame">−1 frame</button>
+            <button type="button" id="next-frame" title="Pause and go forward one frame" aria-label="Next frame">+1 frame</button>
+            <button type="button" id="restart" title="Restart the current cohort">Restart cohort</button>
+          </div>
+          <div class="view-options">
+            <label for="speed">Speed</label>
+            <select id="speed" aria-label="Playback speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select>
+            <button type="button" id="fullscreen">Full screen</button>
+          </div>
+        </div>
+        <p class="control-hint">Drag the timeline to choose a slice. Frame buttons pause playback. <kbd>Space</kbd> plays or pauses when the player area is focused.</p>
+      </div>
+      <p id="error-message" class="error" role="alert" hidden></p>
+      <noscript><p class="fallback">JavaScript is disabled. Use the video’s built-in playback controls; cohort buttons require JavaScript.</p></noscript>
+    </section>
+
+    <section class="reading-guide" id="interpretation" aria-labelledby="guide-heading">
+      <div class="guide-lead"><p class="eyebrow">How to read the maps</p><h2 id="guide-heading">Movement through space,<br>not through time.</h2></div>
+      <div class="guide-copy">
+        <p>Each chapter sweeps through axial, coronal and sagittal slices of the same aggregate association map shown in the manuscript. The animation depicts spatial navigation—not disease progression, longitudinal change or training dynamics.</p>
+        <p>Colors show coefficients standardized within each map, with fixed display limits of −2.6 to +2.6 and an overlay at |display z| &gt; 0.8. This is a display threshold, not a significance threshold. Warm colors indicate relatively higher coefficients, which may still be negative in raw units; colors are not comparable cross-cohort effect sizes.</p>
+        <details><summary>Orientation, sampling and provenance</summary><div>
+          <p>L/R denote left/right and P/A posterior/anterior. Coordinates are in millimeters. The three planes traverse their own analyzed-mask coordinate ranges; they do not track a common anatomical landmark across cohorts.</p>
+          <p>OASIS-3 includes 1,360 participants. Corrected participant-purged ADNI includes 731 acquisitions from 547 participants. OASIS-1 includes 226 participants and uses Schaefer-100 parcel coefficients. OASIS-3 and ADNI display values are standardized over analyzed voxels; OASIS-1 values are standardized over parcels before projection.</p>
+          <p>The anatomical background is the standard MNI152 template, not an individual participant. The viewer uses an unchanged copy of the original MP4; no participant-level images or identifiers are included. It adds playback controls, not new statistical analyses. Source hashes and display settings are recorded in <a href="provenance.json">the provenance record</a>.</p>
+        </div></details>
+      </div>
+    </section>
+
+    <footer><span>MISFIT · Brain-map explorer</span><a href="assets/brain-maps.mp4" download="Supplementary_Video_1_MISFIT_brain_maps.mp4">Download the original MP4 <span aria-hidden="true">↗</span></a></footer>
+  </main>
+</body>
+</html>

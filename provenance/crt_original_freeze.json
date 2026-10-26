@@ -1,0 +1,34 @@
+{
+  "ts": "2026-10-18T15:27:38",
+  "files": {
+    "code/analysis.py": "9e4850a840261d6a",
+    "code/calib.py": "e66ef70990102d54",
+    "code/cohorts.py": "804f2f6701d2dfd6",
+    "code/driver.py": "af7f9a701c641d74",
+    "code/features.py": "c8f8c89cadf76249",
+    "code/freeze_protocol.py": "ee89e0671d095708",
+    "code/model.py": "6f95590a7dbba266",
+    "code/pilot_timing.py": "7c1fb62fd6672d49",
+    "code/run_conf.py": "c8c4fcd5e3f77e5a",
+    "code/run_dev.py": "2956834100fe3e58",
+    "code/train.py": "3c3ccb1c0a2d836b",
+    "code/transport.py": "336614112cbb3b43",
+    "protocol/DEVIATIONS.md": "5349bfb29eafa2fc",
+    "protocol/FEASIBILITY_crt_20261018.md": "4bd0c151894d6942",
+    "protocol/frozen_protocol.md": "cafd47babad33063",
+    "tests/smoke_e2e.py": "e5cec8fdea977dcd",
+    "tests/test_crt.py": "618050e8cc61f155"
+  },
+  "digests": {
+    "oasis3": "5dd7fdb37a504af4d610bf90b9a9f6023168c31a3b547689aff908f426b0400d",
+    "adni": "a33a074e9f56fd538dcf2a8f941e823f3b7b443d3995fcbc2982aeaa6ce377cb",
+    "oasis1": "dd5e6be870673dc76f76f06cf547f644355413132b94c310d56e65aca485bdec"
+  },
+  "git": "494b59973f0f6bd7b0cc7f082ff56739d2ddf54d",
+  "versions": {
+    "python": "3.13.9",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "cudnn": 91002
+  }
+}

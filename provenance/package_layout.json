@@ -1,0 +1,1030 @@
+{
+  "previous_version": "0.5.0",
+  "version": "0.6.1",
+  "package": "misfit",
+  "files": [
+    {
+      "previous_path": "core/__init__.py",
+      "current_path": "misfit/core/__init__.py",
+      "previous_sha256": "e322aae4c16b87639e30a5e064125ba89b385f6dc02222b9cf2d6db380933c9c",
+      "current_sha256": "f805ccbe0ff98690d8b8a439d79e70790a248755135782557053c68ba61e7220"
+    },
+    {
+      "previous_path": "core/contrastive/__init__.py",
+      "current_path": "misfit/core/contrastive/__init__.py",
+      "previous_sha256": "898915ee1f8329b70a2ca0916276e37e4d50f2d11d1d38722ff3bd904a469b5e",
+      "current_sha256": "bdf70fb75498709a7db8b5d52169e7900177763c0608c8cd1276f5409b935ae9"
+    },
+    {
+      "previous_path": "core/contrastive/losses.py",
+      "current_path": "misfit/core/contrastive/losses.py",
+      "previous_sha256": "491fab7696a083b6c71341fcc3917f67f0bce832a997c3a94527732085e8291f",
+      "current_sha256": "491fab7696a083b6c71341fcc3917f67f0bce832a997c3a94527732085e8291f"
+    },
+    {
+      "previous_path": "core/contrastive/mining.py",
+      "current_path": "misfit/core/contrastive/mining.py",
+      "previous_sha256": "34dd63008a0b177f62d140e495b063b31c983212aa144d958a41da21115b453d",
+      "current_sha256": "34dd63008a0b177f62d140e495b063b31c983212aa144d958a41da21115b453d"
+    },
+    {
+      "previous_path": "core/contrastive/pairs.py",
+      "current_path": "misfit/core/contrastive/pairs.py",
+      "previous_sha256": "86cc7b528dafe111626da556b8e32864333de579fea4cc2689191635e251c217",
+      "current_sha256": "86cc7b528dafe111626da556b8e32864333de579fea4cc2689191635e251c217"
+    },
+    {
+      "previous_path": "core/contrastive/projection.py",
+      "current_path": "misfit/core/contrastive/projection.py",
+      "previous_sha256": "917763b5ce94806f248df5486d012064477e0312a323300526936321b4411bb2",
+      "current_sha256": "917763b5ce94806f248df5486d012064477e0312a323300526936321b4411bb2"
+    },
+    {
+      "previous_path": "core/encoders/__init__.py",
+      "current_path": "misfit/core/encoders/__init__.py",
+      "previous_sha256": "db483855ae412069b3fdc9ff83350a839bec53f8293d56d9eecaafd672805522",
+      "current_sha256": "4be439dd5a42afb89c59152e84a1534d97acc8bf4b5dc0df81856632650ffc8a"
+    },
+    {
+      "previous_path": "core/encoders/base.py",
+      "current_path": "misfit/core/encoders/base.py",
+      "previous_sha256": "80859ae2013bc33ff542a9be38cb39e7075631565b44a00f22ec50efbf7ecb14",
+      "current_sha256": "80859ae2013bc33ff542a9be38cb39e7075631565b44a00f22ec50efbf7ecb14"
+    },
+    {
+      "previous_path": "core/encoders/mlp.py",
+      "current_path": "misfit/core/encoders/mlp.py",
+      "previous_sha256": "2321d8607c0c2c66dbeff85d1a0c3319a2da9fbb39852c77ff7a041e96e44adb",
+      "current_sha256": "c270d84d76a53e547e23d5a9c0d8cb83e14343d1dcb28058ac562f42e555c4f9"
+    },
+    {
+      "previous_path": "core/losses.py",
+      "current_path": "misfit/core/losses.py",
+      "previous_sha256": "9f47e01797140b6f20ade113c363648af073c9a7efd6b367f180b94091808561",
+      "current_sha256": "9f47e01797140b6f20ade113c363648af073c9a7efd6b367f180b94091808561"
+    },
+    {
+      "previous_path": "core/operators/__init__.py",
+      "current_path": "misfit/core/operators/__init__.py",
+      "previous_sha256": "5c07b3e375e42d534f493cfccbc974c4559edafe56b79ec757b51c9bd159f6ce",
+      "current_sha256": "3743e389e7c202b576279abd70065e0470bfaaf0840e213c49cf79e4c3f3f938"
+    },
+    {
+      "previous_path": "core/operators/operator_model.py",
+      "current_path": "misfit/core/operators/operator_model.py",
+      "previous_sha256": "061337420627e5380c82626c434ed5a28339250d2cf6f02516a93dc3ba1099de",
+      "current_sha256": "66d1726450b32eb5918d699c29709627264d53a32e72e93fa618bdde45083535"
+    },
+    {
+      "previous_path": "core/operators/program_dict.py",
+      "current_path": "misfit/core/operators/program_dict.py",
+      "previous_sha256": "27090fe56ae88c4cfff6bbe1b5b4367a55cdddeccddf0e5a10b84355e3e69e5e",
+      "current_sha256": "27090fe56ae88c4cfff6bbe1b5b4367a55cdddeccddf0e5a10b84355e3e69e5e"
+    },
+    {
+      "previous_path": "core/operators/style_operator.py",
+      "current_path": "misfit/core/operators/style_operator.py",
+      "previous_sha256": "5656e5752113b8d13ca4caba3e3222afd9df23fa5ea82662ed82846c50f6a610",
+      "current_sha256": "5656e5752113b8d13ca4caba3e3222afd9df23fa5ea82662ed82846c50f6a610"
+    },
+    {
+      "previous_path": "core/operators/subject_operator.py",
+      "current_path": "misfit/core/operators/subject_operator.py",
+      "previous_sha256": "8d1e9f89d9f3c5f26ecb633adfd9ec1bed0b82443a01a61d4cfa15e9fcf44e2a",
+      "current_sha256": "5200f690fdc5c449cbfa6e09bd1778c03da14842d40d2273ce4e15b8bd001360"
+    },
+    {
+      "previous_path": "core/optim.py",
+      "current_path": "misfit/core/optim.py",
+      "previous_sha256": "8e1ca7bc3a221174ab68a3b1aa2cb7a874ec1c017e3f0069dbcb91519404deb0",
+      "current_sha256": "8e1ca7bc3a221174ab68a3b1aa2cb7a874ec1c017e3f0069dbcb91519404deb0"
+    },
+    {
+      "previous_path": "core/types.py",
+      "current_path": "misfit/core/types.py",
+      "previous_sha256": "f65d805244525677e3dffe690dc2b2718af80abb498fda96351b6187ec02c469",
+      "current_sha256": "f65d805244525677e3dffe690dc2b2718af80abb498fda96351b6187ec02c469"
+    },
+    {
+      "previous_path": "core/utils.py",
+      "current_path": "misfit/core/utils.py",
+      "previous_sha256": "ca23c8e41003ac68ab238ac35d124a147510d3d4b737f22f895e610ac161d697",
+      "current_sha256": "ca23c8e41003ac68ab238ac35d124a147510d3d4b737f22f895e610ac161d697"
+    },
+    {
+      "previous_path": "data/__init__.py",
+      "current_path": "misfit/data/__init__.py",
+      "previous_sha256": "89696c4d5794a7a8bd1e40fa6394885a7b4c24bba209e86766b830883d992a33",
+      "current_sha256": "89696c4d5794a7a8bd1e40fa6394885a7b4c24bba209e86766b830883d992a33"
+    },
+    {
+      "previous_path": "data/abide_loader.py",
+      "current_path": "misfit/data/abide_loader.py",
+      "previous_sha256": "5e8c876c68ac057b4df51df945bbea947f571e00a716d938f08cbda3720abda6",
+      "current_sha256": "ff6637cb36a1c87e781703a4ff244a4915d96e92dc899e8c0d31c2d7c75b2095"
+    },
+    {
+      "previous_path": "data/mri_multisite.py",
+      "current_path": "misfit/data/mri_multisite.py",
+      "previous_sha256": "265612f51c143159aeb7edac6ec63d041ca53d9c089808955a62438ad3133fc8",
+      "current_sha256": "265612f51c143159aeb7edac6ec63d041ca53d9c089808955a62438ad3133fc8"
+    },
+    {
+      "previous_path": "data/oasis_loader.py",
+      "current_path": "misfit/data/oasis_loader.py",
+      "previous_sha256": "690b9d12ef9fcf5db6a2e2dfd577440232005db2da4d1a13692089e5970cec0a",
+      "current_sha256": "e98c50ff6273590025ecd444f2cac432c0a479ba7387bd0f879225f6a0a0a915"
+    },
+    {
+      "previous_path": "data/ukbb_loader.py",
+      "current_path": "misfit/data/ukbb_loader.py",
+      "previous_sha256": "f836e69e3eb229e8b115f140b2e6cdfb8198acf9b088b7b51d46daeb44ee8550",
+      "current_sha256": "ec9e66d66ef90081a188a38eed0475510fdac353c115a7de37a0f104292dfce0"
+    },
+    {
+      "previous_path": "misfit_demo.py",
+      "current_path": "misfit/demo.py",
+      "previous_sha256": "94adbe1a9bd07c4c30e94d282734084838e0c6a3dfef01e7d2e9d6d5226ed6ac",
+      "current_sha256": "30bd3b4f594fdfb10728fdd43ab85f007b4daac25489e186ed4a9ecdca384c3f"
+    },
+    {
+      "previous_path": "misfit_paths.py",
+      "current_path": "misfit/paths.py",
+      "previous_sha256": "ddea0c619947b8803df315e6f8df6b9925f61078bbe4e8fcc8a49e996e55e768",
+      "current_sha256": "4cc5d8521c19823dcfc6964283becaf5590c86b1ae47f55617e49e6d1ee06f65"
+    },
+    {
+      "previous_path": "phase1a_fire_tensor/experiments/run_adni_smri.py",
+      "current_path": "misfit/data/adni_loader.py",
+      "previous_sha256": "e3fbcf61a72dab5e46e2d8183a13df9830690c26642bec9c1eaca97d910f8fc2",
+      "current_sha256": "71906d14d4a591755b2dfd25b85fa6bdfec2bfc560b6a8e09c3b779e49a65b9f"
+    },
+    {
+      "previous_path": "phase1a_fire_tensor/tensor_spectral/__init__.py",
+      "current_path": "misfit/tensor_spectral/__init__.py",
+      "previous_sha256": "73d5f67edee5629ed10fd21563e1fd6556dff2ff20b90e420a2c5761945ca710",
+      "current_sha256": "479c24dfb2bd3ed141c69715780e90db6ec9f3a45317346fd2e6a58dfdeb8265"
+    },
+    {
+      "previous_path": "phase1a_fire_tensor/tensor_spectral/recovery.py",
+      "current_path": "misfit/tensor_spectral/recovery.py",
+      "previous_sha256": "8b20a5fef41bcb57dcd93464dd63cc6dafab07b7c893f1652e1af7068e7a6608",
+      "current_sha256": "dab1baca603151c1bff1c7aa58eec3ed521c31b6c9b4def683acbbdc47441a3e"
+    },
+    {
+      "previous_path": "phase1a_fire_tensor/tensor_spectral/tensor_power.py",
+      "current_path": "misfit/tensor_spectral/tensor_power.py",
+      "previous_sha256": "5740e5a8eef05237b2da9602a0e4a2c3787012f7db8d2b96470759d78ee9d79b",
+      "current_sha256": "5740e5a8eef05237b2da9602a0e4a2c3787012f7db8d2b96470759d78ee9d79b"
+    },
+    {
+      "previous_path": "phase1a_fire_tensor/tensor_spectral/whitening.py",
+      "current_path": "misfit/tensor_spectral/whitening.py",
+      "previous_sha256": "b8dd4cb725b12c2a7b3862482e48f4fbca14748d83836da7528fdf64bac66740",
+      "current_sha256": "b8dd4cb725b12c2a7b3862482e48f4fbca14748d83836da7528fdf64bac66740"
+    },
+    {
+      "previous_path": "phase1a_fire_tensor/training/__init__.py",
+      "current_path": "misfit/training/__init__.py",
+      "previous_sha256": "4cef28d7e87ebf919e6fa10a0447f78cc936dbe6bfe2495696fbd2bc27ccfeee",
+      "current_sha256": "4cef28d7e87ebf919e6fa10a0447f78cc936dbe6bfe2495696fbd2bc27ccfeee"
+    },
+    {
+      "previous_path": "phase1a_fire_tensor/training/two_stage_trainer.py",
+      "current_path": "misfit/training/two_stage_trainer.py",
+      "previous_sha256": "d3645ebc11676526d21fed051154a5a78f2b32644d664fcdae4c2d4ed4604e85",
+      "current_sha256": "e503361787934a0489aa82a1afee58cf4044fb2b39192c519e8f19ba8819d8e7"
+    },
+    {
+      "previous_path": "phase1b_fire_manifold/certificates/__init__.py",
+      "current_path": "misfit/certificates/__init__.py",
+      "previous_sha256": "1698c6fedc60ad28c69d1e86f7b96e1efc3d45b93b658c740aafc1b8ea2c4e8a",
+      "current_sha256": "75e3f3c99f33b622fef66385795574bd2b25cc815400b73a7974997ced861a68"
+    },
+    {
+      "previous_path": "phase1b_fire_manifold/certificates/pac_bayes.py",
+      "current_path": "misfit/certificates/pac_bayes.py",
+      "previous_sha256": "48b6d268b624b028d2dc9868c0b126dd1264dd7d7cbee6b5966c1a7d44c21507",
+      "current_sha256": "48b6d268b624b028d2dc9868c0b126dd1264dd7d7cbee6b5966c1a7d44c21507"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/code/audit_adni_membership.py",
+      "current_path": "misfit/correction_20261018/code/audit_adni_membership.py",
+      "previous_sha256": "bd29ca5f2eeb02f3d5ff27608ca751fc81d771a51f54c8b7e761b2492544950e",
+      "current_sha256": "584e6bbe8989a9c6835fbe03fcaea948b9e3c60901bd43f98677c72d34824b82"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/code/corrected_summaries.py",
+      "current_path": "misfit/correction_20261018/code/corrected_summaries.py",
+      "previous_sha256": "eecd392edd253994b5bd1d937390745a9ee1141987ed69d1ad75345f4ec911ee",
+      "current_sha256": "eecd392edd253994b5bd1d937390745a9ee1141987ed69d1ad75345f4ec911ee"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/code/crt_recompute.py",
+      "current_path": "misfit/correction_20261018/code/crt_recompute.py",
+      "previous_sha256": "79591a7625f1878ecda6e5ad5e68f8e6e60a5ab8122187264d8e8b70dfb07693",
+      "current_sha256": "044f539f0351ff009b6061c5d14046650de1fb08725223d92ff3b4a157699c40"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/code/figure_integrity.py",
+      "current_path": "misfit/correction_20261018/code/figure_integrity.py",
+      "previous_sha256": "c1b460965e0652e52895a052cf8c0dd137a24b11d2fefc07a71fd91224399493",
+      "current_sha256": "da882e6298f20955ef9ae9d4ddef0891eda594caed3ace1334051356f246d671"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/code/original_vs_corrected.py",
+      "current_path": "misfit/correction_20261018/code/original_vs_corrected.py",
+      "previous_sha256": "f49eb3555a1907c4abc2dcb1b1965ee4b37528addedb1c2dede717ba2fabdeda",
+      "current_sha256": "b41bb09cbe84962a60aef55f352c1d0e7bb2c4b3125e78ca1b4829acff1474f4"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/code/purged_harness.py",
+      "current_path": "misfit/correction_20261018/code/purged_harness.py",
+      "previous_sha256": "eaae788b4c6875dc2cb527e641ea484deabe2c9a8ee7e421b911ceccb9093266",
+      "current_sha256": "7378bf976d0c88e6545679edb9afd46d7a6e77e772b11c90a45df545d22c9a13"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/code/purged_loader.py",
+      "current_path": "misfit/correction_20261018/code/purged_loader.py",
+      "previous_sha256": "b91c0c6989ff68ce3e146c76060b186b66449818333f60bbcacb146a79b639be",
+      "current_sha256": "572b5750c9f7f21beb1c09c1b62cffd04e40151ddd6db090ebfeb9bad54c2617"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/code/rerun_adni_dedup.py",
+      "current_path": "misfit/correction_20261018/code/rerun_adni_dedup.py",
+      "previous_sha256": "4f9a302d096667a742c466bc3594a4e6ce914f14eeb99f50e46344d2af1422fa",
+      "current_sha256": "6c5c2e342951ccf744ac315f83d08bf0aee4cc1cb7a04745aa6caae8e68ca883"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/code/rerun_adni_purged.py",
+      "current_path": "misfit/correction_20261018/code/rerun_adni_purged.py",
+      "previous_sha256": "50238af234f82eb5eaffa07e96f8b4a95ce3955c42a69133ba63db82a06c4d88",
+      "current_sha256": "3ead263475de8b3fe32f7f7a02d3bb0b72895f1a037f7299b7ee61052a13b355"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/code/snapshot_provenance.py",
+      "current_path": "misfit/correction_20261018/code/snapshot_provenance.py",
+      "previous_sha256": "7234b80b4ec839d3f5c147dc290de82b3027fdfc71f191832d33045995dbaf27",
+      "current_sha256": "141f81bb7c4f6981dc73ce280ff1dc8bd883e9738d0620ad174b883d2481ee21"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/deferred_reruns/code/rerun_common.py",
+      "current_path": "misfit/correction_20261018/deferred_reruns/code/rerun_common.py",
+      "previous_sha256": "26ac36ccffd3a5dfb7bd20cb56ae824cda752eb1798e501c802f516b1d48e9ed",
+      "current_sha256": "8f70cadc30c476c0835e4cd3da9e0a1e8dc6da09b635ab6fbcda1281c6944361"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/deferred_reruns/code/rerun_crossrefit_purged.py",
+      "current_path": "misfit/correction_20261018/deferred_reruns/code/rerun_crossrefit_purged.py",
+      "previous_sha256": "994ca84a2e739b585aebea4bb5e1ac05179dbfe627bad7ab6c65c6a54c597e47",
+      "current_sha256": "87bed73e8cd77a6f08dd47a519265d8b6a96dd2455a8a095cc8da9e8ff7c3209"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/deferred_reruns/code/rerun_interpolation_purged.py",
+      "current_path": "misfit/correction_20261018/deferred_reruns/code/rerun_interpolation_purged.py",
+      "previous_sha256": "ab51a0bd563daa9a1caf6e1f12bb3f54a8f0bdb9f0f3fdc1dcea63e94d12894a",
+      "current_sha256": "78fff475289db62e99d0ea260661ea956471b03337a39b87dd39742d33d595e2"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/deferred_reruns/code/rerun_preproc_purged.py",
+      "current_path": "misfit/correction_20261018/deferred_reruns/code/rerun_preproc_purged.py",
+      "previous_sha256": "57ec7e749102265720297331a7b0e16fb47352c234fec39ac3c16ae8f5488c07",
+      "current_sha256": "61beeddaaf2b7e102af242f97329bd5e3e4e122223fbeb55c231f93d06f7e6a0"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/integration/code/adni_signature_corrected.py",
+      "current_path": "misfit/correction_20261018/integration/code/adni_signature_corrected.py",
+      "previous_sha256": "3796e4a149f889f7b5800d706974c809a1feb37ca53b4f628cf90ea34ff94b72",
+      "current_sha256": "44dbc60ce1fd6821c19718e74791814c30270dccef43e4eccca88c314fdaa736"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/integration/code/export_joint_strata.py",
+      "current_path": "misfit/correction_20261018/integration/code/export_joint_strata.py",
+      "previous_sha256": "dd027a98e20cf97fc2a0a9fc99d6a0c172f157cea7bbf70ddf57a38f731f0336",
+      "current_sha256": "dd027a98e20cf97fc2a0a9fc99d6a0c172f157cea7bbf70ddf57a38f731f0336"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/integration/code/export_released_perscan.py",
+      "current_path": "misfit/correction_20261018/integration/code/export_released_perscan.py",
+      "previous_sha256": "04cc7451893fbca34995ae5e3ec296d1e7ba41ccd9c484df7f4133622e2dd621",
+      "current_sha256": "04cc7451893fbca34995ae5e3ec296d1e7ba41ccd9c484df7f4133622e2dd621"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/integration/code/integration_stats.py",
+      "current_path": "misfit/correction_20261018/integration/code/integration_stats.py",
+      "previous_sha256": "87fc4a49b4f4936bd9cce59869d0ba4665f099d49cac682ac91acd9dd571d8d2",
+      "current_sha256": "869a4c2bcee68e964f43730bc725af1a7da08453067bc7850a8807c9abcf3dec"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/integration/code/regen_figures_corrected.py",
+      "current_path": "misfit/correction_20261018/integration/code/regen_figures_corrected.py",
+      "previous_sha256": "6c80d18d31daa9b627941bba36b0a003a3871702c3b6bcff4a95c5af5d8c772c",
+      "current_sha256": "91ffe00cd71f146d261f42711446006f7ee6537eb939e57234ace431fb141a42"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/verify/task1_reproduction_binding.py",
+      "current_path": "misfit/correction_20261018/verify/task1_reproduction_binding.py",
+      "previous_sha256": "010850500dcfc147c3555f862c2f87e8765fa7c1eaec13b3b863ea12ca55912d",
+      "current_sha256": "05677a874079a405cec3712bf5094e30bcd959de6508a2bb49b2e0c92a0b38d6"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/verify/task2_purge_verification.py",
+      "current_path": "misfit/correction_20261018/verify/task2_purge_verification.py",
+      "previous_sha256": "649f377be83e78c998ed334e21a5d0db93cce6139ce5c1f3816545bc26b1b73a",
+      "current_sha256": "6a241373d68163f25e022869d91c2577333048ebaa9079231218f51eec25849d"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/verify/task3_headline_rederivation.py",
+      "current_path": "misfit/correction_20261018/verify/task3_headline_rederivation.py",
+      "previous_sha256": "368322c23585030e62579c221e4e662d18f58dc4e28388d4c0c5331c3aab67b2",
+      "current_sha256": "967800b145d288f0a9a5bddded5df831e9ec635334fcb40ee218de0fea9958d8"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/verify/task4_paired_bootstrap.py",
+      "current_path": "misfit/correction_20261018/verify/task4_paired_bootstrap.py",
+      "previous_sha256": "36d3df7428a7e3f9a33fcb9782017baf21f42be8c32f15c80cd2e4b0a5ed2177",
+      "current_sha256": "4eb7d879c4b0c54e48d9a0335c711ec5ef8dc99574dedeefccc94248274aff70"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/verify/task5_crt_rederivation.py",
+      "current_path": "misfit/correction_20261018/verify/task5_crt_rederivation.py",
+      "previous_sha256": "4de0dee389ba427e99f5e8cf2f24e7ba92210454aadd48033424d1667dac0617",
+      "current_sha256": "380f4df3f19abfeedcdbaa416bac22938cb134de0f395948be189929a4b5e2de"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/verify/task6_master_table_spotcheck.py",
+      "current_path": "misfit/correction_20261018/verify/task6_master_table_spotcheck.py",
+      "previous_sha256": "373130381b2d2f7ddd69b3edc74480060a2835e0fcc853bd45baa7d00b156640",
+      "current_sha256": "76cbd07ce1e60caf904c716ad27326ae9bcaa7e72246e9f24e1015870bf1ff61"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/verify/task7_figure_integrity.py",
+      "current_path": "misfit/correction_20261018/verify/task7_figure_integrity.py",
+      "previous_sha256": "8ed9bd699603b44e63f9bcd15f3ec0091a831b77bd20b82bf2898e182a1d9e73",
+      "current_sha256": "26ad3fff3f1f881e64cae70a9ce167bd1ae89daf19dedd40ba14b9dde113bca3"
+    },
+    {
+      "previous_path": "phase1b_mia/correction_20261018/verify/task8_audit_consistency.py",
+      "current_path": "misfit/correction_20261018/verify/task8_audit_consistency.py",
+      "previous_sha256": "311c8dbd072c57121d2ec7ad8fd02924ec71f9c4fabeac3b729b691ca987fe2b",
+      "current_sha256": "ad8d938892cede6555e60d3f7848cc4eb0c9ac1e125099eb02484bdf633990d1"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/README.md",
+      "current_path": "REPRODUCIBILITY.md",
+      "previous_sha256": "df840e3fcf00e03fe04cc827d05e21cbc51cdb4ec4a6047ced4cb35a52060642",
+      "current_sha256": "bbb97d81fa66e403ef1d4c7c7357164bdea61459ecd80d1a3068a10ba7120403",
+      "changes": [
+        "guide consolidated into REPRODUCIBILITY.md"
+      ]
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/__init__.py",
+      "current_path": "misfit/crt_study/__init__.py",
+      "previous_sha256": "1546441ce45204b2289b455b9f43e443f6272fa3b448fb90d455cf9fe2bec9fb",
+      "current_sha256": "1546441ce45204b2289b455b9f43e443f6272fa3b448fb90d455cf9fe2bec9fb"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/code/__init__.py",
+      "current_path": "misfit/crt_study/code/__init__.py",
+      "previous_sha256": "1546441ce45204b2289b455b9f43e443f6272fa3b448fb90d455cf9fe2bec9fb",
+      "current_sha256": "1546441ce45204b2289b455b9f43e443f6272fa3b448fb90d455cf9fe2bec9fb"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/code/analysis.py",
+      "current_path": "misfit/crt_study/code/analysis.py",
+      "previous_sha256": "9e4850a840261d6a637495fe5962008067995918dba86793d9f9d0560a89fd17",
+      "current_sha256": "9e4850a840261d6a637495fe5962008067995918dba86793d9f9d0560a89fd17"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/code/calib.py",
+      "current_path": "misfit/crt_study/code/calib.py",
+      "previous_sha256": "e66ef70990102d5481be18ec4ee3545e42e5b99f0566e7c768b133252640bcdf",
+      "current_sha256": "e66ef70990102d5481be18ec4ee3545e42e5b99f0566e7c768b133252640bcdf"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/code/cohorts.py",
+      "current_path": "misfit/crt_study/code/cohorts.py",
+      "previous_sha256": "bd5ce70447dbbe1da675a29f78bfd8914dcca74979d0c45fd86078af86093a1d",
+      "current_sha256": "51c0d7603973b44dd8397775fa22bab70c244c22918bb119c6d4418a6072de13"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/code/driver.py",
+      "current_path": "misfit/crt_study/code/driver.py",
+      "previous_sha256": "7f3b98cf171c21ceb9f40b85e6014ce1e324d52bff867cad949b79dc95b99653",
+      "current_sha256": "04afe7c2169580aad3391f51dd214d75e0896c9eab1df3098e90f14a43aac055"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/code/features.py",
+      "current_path": "misfit/crt_study/code/features.py",
+      "previous_sha256": "dd5473538946d232100d689a1ee4e012c551545248d99a96e88e550103baf927",
+      "current_sha256": "dd0fdde099bfc47c4b6af71e85a5f732fd395bcc185c45dbda7b65b8dfd6acc3"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/code/freeze_protocol.py",
+      "current_path": "misfit/crt_study/code/freeze_protocol.py",
+      "previous_sha256": "a35b88d624ef1014e4e77d8593ebab67390fecfff6a348b17b6c159a1d11f6ea",
+      "current_sha256": "b252eeff7b6d2517ddf6b1687bce83a3e0025c88b691f0042f97be91107a264c"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/code/model.py",
+      "current_path": "misfit/crt_study/code/model.py",
+      "previous_sha256": "6f95590a7dbba2668ad210e774106a864d8cd4a33dee04d907b146e83ac7f643",
+      "current_sha256": "6f95590a7dbba2668ad210e774106a864d8cd4a33dee04d907b146e83ac7f643"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/code/pilot_timing.py",
+      "current_path": "misfit/crt_study/code/pilot_timing.py",
+      "previous_sha256": "33195730429eb98cad07668ef94b452ef7c346b919f861040c2cf84f15ad9e60",
+      "current_sha256": "29a349d9c29a7707d7f882e24916ad84f6a32ea11dd7499cd671b100353b5c61"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/code/run_conf.py",
+      "current_path": "misfit/crt_study/code/run_conf.py",
+      "previous_sha256": "22750c1681783ed420ce33965b52326be0a391a22826a99f4bd7182b1f581274",
+      "current_sha256": "90fe8affe878f9aa92e6ecca51966d08fd93f82ecfca5c46b0dabd9e8731f6a6"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/code/run_dev.py",
+      "current_path": "misfit/crt_study/code/run_dev.py",
+      "previous_sha256": "5052df5bf4bd6a341051780aa85fe2be57e23e007d688149d24d2033d949af55",
+      "current_sha256": "9f8782bf548a5924167ac9cfca28201dc0617c1572eddba4f8c2d0e45d3a878c"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/code/train.py",
+      "current_path": "misfit/crt_study/code/train.py",
+      "previous_sha256": "19c402a9777e1b8c50d2c92aa11edfb4b5a46dcdf680f4f4279b0fb1dfd7d800",
+      "current_sha256": "4328606a7f87bbd7f8158ba95c5c111c1586ffefcafbb76952c2a63384284990"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/code/transport.py",
+      "current_path": "misfit/crt_study/code/transport.py",
+      "previous_sha256": "f65588ee91f19968aa2742e8542a0142750b3cfa657f52b9f1ebc49667fe3afa",
+      "current_sha256": "01914462361ef8b62df21fecfb153d6deebe838d1eab472ee1e0904a63c01583"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/protocol/DEVIATIONS.md",
+      "current_path": "misfit/crt_study/protocol/DEVIATIONS.md",
+      "previous_sha256": "1c1fda29c5c6d8334af17f41c22e3159e6122287a40172a56b3f6e769784a90c",
+      "current_sha256": "1c1fda29c5c6d8334af17f41c22e3159e6122287a40172a56b3f6e769784a90c"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/protocol/cfg_adni.json",
+      "current_path": "misfit/crt_study/protocol/cfg_adni.json",
+      "previous_sha256": "b2d22cdd47de57b58303576a11b53f32899972d5bf7128fb867157e58250614e",
+      "current_sha256": "b2d22cdd47de57b58303576a11b53f32899972d5bf7128fb867157e58250614e"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/protocol/cfg_oasis1.json",
+      "current_path": "misfit/crt_study/protocol/cfg_oasis1.json",
+      "previous_sha256": "5829957d984e5933c105703b539d23dfc87f814379a6cafb6ab29d1b3d012ee6",
+      "current_sha256": "5829957d984e5933c105703b539d23dfc87f814379a6cafb6ab29d1b3d012ee6"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/protocol/cfg_oasis3.json",
+      "current_path": "misfit/crt_study/protocol/cfg_oasis3.json",
+      "previous_sha256": "30152c57f64e1670b8df00372aeb0ba2b54190a70b81ed51b52f7eee2c674b83",
+      "current_sha256": "30152c57f64e1670b8df00372aeb0ba2b54190a70b81ed51b52f7eee2c674b83"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/protocol/frozen_protocol.md",
+      "current_path": "misfit/crt_study/protocol/frozen_protocol.md",
+      "previous_sha256": "cafd47babad33063ea5bd90eecbff0a0d2dc9b805a422542b6452c057ae528d6",
+      "current_sha256": "cafd47babad33063ea5bd90eecbff0a0d2dc9b805a422542b6452c057ae528d6"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/sim/__init__.py",
+      "current_path": "misfit/crt_study/sim/__init__.py",
+      "previous_sha256": "1546441ce45204b2289b455b9f43e443f6272fa3b448fb90d455cf9fe2bec9fb",
+      "current_sha256": "1546441ce45204b2289b455b9f43e443f6272fa3b448fb90d455cf9fe2bec9fb"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/sim/null_calibration.py",
+      "current_path": "misfit/crt_study/sim/null_calibration.py",
+      "previous_sha256": "7d88d9291b80315669c3134fffb789aa8ffd36c0a02d0d4a8e703283b8c07bee",
+      "current_sha256": "5ebe9220ff0e09dd67e657e2672492b5cdc32b109816f4d2fe9e43eb8fbf0e69"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/tests/__init__.py",
+      "current_path": "misfit/crt_study/tests/__init__.py",
+      "previous_sha256": "1546441ce45204b2289b455b9f43e443f6272fa3b448fb90d455cf9fe2bec9fb",
+      "current_sha256": "1546441ce45204b2289b455b9f43e443f6272fa3b448fb90d455cf9fe2bec9fb"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/tests/smoke_e2e.py",
+      "current_path": "misfit/crt_study/tests/smoke_e2e.py",
+      "previous_sha256": "5aabb47503779044fc72ab50ca03520662104d21584eb48b51a81a06a5456e9b",
+      "current_sha256": "cc58144b43c3029d9d4f9a5eba4db70c3e01899a90071074279b13c8d67bce61"
+    },
+    {
+      "previous_path": "phase1b_mia/crt_study/tests/test_crt.py",
+      "current_path": "misfit/crt_study/tests/test_crt.py",
+      "previous_sha256": "e76bd5cfbd98268bb9c551be0a861f54b07f64248f4ffbb026b8f60fd48d110e",
+      "current_sha256": "bdac9f1aeaefce7daeb3a0763ce84c733bffa095f1e92992b725f9fe05ca59a3"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/build_oasis3_labels.py",
+      "current_path": "misfit/experiments/build_oasis3_labels.py",
+      "previous_sha256": "dcc05fe987cdf592a993563a76e82e4f6bb76534fbd74c055723aca732aff6a1",
+      "current_sha256": "4a199ff646214e26a5bc1a85c71163af7fa2957fdeb96896e8907e5ecfc7e80e"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/dump_per_subject_misfit_iop.py",
+      "current_path": "misfit/experiments/dump_per_subject_misfit_iop.py",
+      "previous_sha256": "7f027260b883201024dca11002db65048d0b9add54e480eab91d9fc27102e44d",
+      "current_sha256": "c462c473a87102187eca061b0cf32657012ba28dca5f4a4de59b2d42c78555bb"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/export_biology_provenance.py",
+      "current_path": "misfit/experiments/export_biology_provenance.py",
+      "previous_sha256": "7a2869feedd5e49dfe03be2996d1a8d4b8f83bf53fa9103d8941c960ae1d1d41",
+      "current_sha256": "71d040e4462d9029f1dc3cc23c919cd07c810726526f56cafe79aa9644487d9d"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/export_cdr_candidate_binding.py",
+      "current_path": "misfit/experiments/export_cdr_candidate_binding.py",
+      "previous_sha256": "306a11801a085c01b3b33bcf3ba399a4865b0ba8ceea44d54f8d1ada4da9745a",
+      "current_sha256": "7dfe31f94208eb0e37a9cc8616346abf2b777e2f33de24fb52802f8268dace02"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/export_oasis3_cdr_records.py",
+      "current_path": "misfit/experiments/export_oasis3_cdr_records.py",
+      "previous_sha256": "b59d54c089dc21aedfdc64d4417c3e00743e4b94b92511d6a15a7bf559af8360",
+      "current_sha256": "02ffcf3cdb170456253b4029fbc09fdf6f0b28500c648598498e67419c0111f0"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/export_removal_ids.py",
+      "current_path": "misfit/experiments/export_removal_ids.py",
+      "previous_sha256": "0551a1ea9c0dbab08043833fd0c757c7de79526cfbd9b0bef0f2faea54236332",
+      "current_sha256": "8d83833a3cd0851c1787f66ec52fccfc328d8e9a540eaf2fae4fc2c158eb1337"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/fancy_figs/fig_brain_signature.py",
+      "current_path": "misfit/experiments/fancy_figs/fig_brain_signature.py",
+      "previous_sha256": "3fe1b5d2ecc5c7706070bea5efc600a527a005cee2427b70c7e06b9eaaf13d46",
+      "current_sha256": "7dc457996f0b4c166f7bbc5d60edf59cb97767bc57fe1f78584504be88a29402"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/fancy_figs/fig_clinical_utility.py",
+      "current_path": "misfit/experiments/fancy_figs/fig_clinical_utility.py",
+      "previous_sha256": "3c265ae041f3ae023e5e9ace954321920208bdcb8536a5643ae480a31abc6291",
+      "current_sha256": "b0b131bbea22bbea54916257b5072a1a23e886b9501d120ab726c1f3cfb2ec67"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/fancy_figs/fig_cross_cohort_forest.py",
+      "current_path": "misfit/experiments/fancy_figs/fig_cross_cohort_forest.py",
+      "previous_sha256": "abecd6cf768e03a5f1cc7922cb4fe861be6aabc6b46575f143878851c6f88894",
+      "current_sha256": "c109b64fe20b2d675def060bc9977bc439612db44b63f2a5ac1b46fa234f620d"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/fancy_figs/fig_dashboard.py",
+      "current_path": "misfit/experiments/fancy_figs/fig_dashboard.py",
+      "previous_sha256": "ef21483531d274f8c5e4489868f011749f91220ffaa301bd25511cde3ef843e2",
+      "current_sha256": "130a380cd709f7077fb02f2baabcc84ddd03caff902a52ad14e32acb3e953a01"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/regen_method_comparison_fig.py",
+      "current_path": "misfit/experiments/regen_method_comparison_fig.py",
+      "previous_sha256": "2bd4eded436d848704299affba9048bca2325222955eb402ccb01844fdf45a48",
+      "current_sha256": "0aa41460e6b330709432e627367e5a97f4d9faf28aa102c2cd9e925c71ced847"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/regen_selective_fig.py",
+      "current_path": "misfit/experiments/regen_selective_fig.py",
+      "previous_sha256": "452976f0c98632af0edb4de3838f35af488a23f615dbcac5903d365babfd4a38",
+      "current_sha256": "095baf5d57160960077b5db985acb0ed3e130d0b86fee7eb84b4eb88082d9bfd"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/route_b/apply_aibl.py",
+      "current_path": "misfit/experiments/route_b/apply_aibl.py",
+      "previous_sha256": "5f25789b5eb43190f06b44cb4c0f179ddd85a5405742b84c361a089042419714",
+      "current_sha256": "806afb6519417833fc262b3584dbf6883c94c4b422348594915190a3bcbe55a7"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/route_b/build_features.py",
+      "current_path": "misfit/experiments/route_b/build_features.py",
+      "previous_sha256": "69523b385090c4dda522084c196be0a5e1330bfc43f12591d9f7ec74eb18e73e",
+      "current_sha256": "2c69b09e7cd4cd2c6043c6b7cc270102ad1aac183470f3713d5f933bdcefba26"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/route_b/run_oasis3_adnitpl.py",
+      "current_path": "misfit/experiments/route_b/run_oasis3_adnitpl.py",
+      "previous_sha256": "5f5c2dd8642ec315de8a8e65f5123ad686be7e92cd81f74c2277cfff44f6445a",
+      "current_sha256": "8e2ba6fc0a3a774208f4949943c317f443ab615ecd7e31e8c4c5f71c1a088835"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/route_b/run_route_b_adni.py",
+      "current_path": "misfit/experiments/route_b/run_route_b_adni.py",
+      "previous_sha256": "692f9cd509d56343fe7de52309f46d87772b72b321b93fee57ec5557719de6f3",
+      "current_sha256": "d6318c0eb2436ea6fb068703bc6994c5ac60b6835da4d454a2489a583a1e0f4a"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/route_b/run_route_b_oasis3.py",
+      "current_path": "misfit/experiments/route_b/run_route_b_oasis3.py",
+      "previous_sha256": "5df54cf6304e3d76f42c02729a3a7d807a4f486a115404923f2a96f453d58af5",
+      "current_sha256": "11833ea66a8bbb4553f589c1d047ececf1c58e769947a899b2b6873a3129c3be"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/route_b/vbm_pipeline.py",
+      "current_path": "misfit/experiments/route_b/vbm_pipeline.py",
+      "previous_sha256": "ce7a49bf3269d686689107d738fb5b6d69fc5ff48f15765519866f0be18b3f18",
+      "current_sha256": "0c055f6e89ee4b362d8c76a35002c21396563c1e2720cdecc2ef2cf157796b79"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_abide_network_chord.py",
+      "current_path": "misfit/experiments/run_abide_network_chord.py",
+      "previous_sha256": "3becf30c128daffd55006f7280e17fb521094506ed3a12d3662c4f3bfd81e414",
+      "current_sha256": "b89167fa3c8302dc43e2593132cf8f0c2cca1dd8b2d51a42989ed5f239c42bb6"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_abide_smoke.py",
+      "current_path": "misfit/experiments/run_abide_smoke.py",
+      "previous_sha256": "4ff03916bcaf91330f58a76283c262e0a8923f811932f99c78dd34659edf53e2",
+      "current_sha256": "654c1043824289bfd97b678b8933854f53724cfd30f8b1ac3cdb775f339142a9"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_abide_validation.py",
+      "current_path": "misfit/experiments/run_abide_validation.py",
+      "previous_sha256": "79abd864471e725524408361196011dc58c0c638c61544dfae5e3bd3d4d929d3",
+      "current_sha256": "c99c1b251d5d59152a7c7dfa424b6b0c39022af60e6aff3d6542de06adf298b9"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_audit_endpoint_s15.py",
+      "current_path": "misfit/experiments/run_audit_endpoint_s15.py",
+      "previous_sha256": "7f44136b89121bf94db5ce6b230a59bda69d0e04310bcb30dd81bcdc2536c2d8",
+      "current_sha256": "f6c0f0215072abb38e98c491f5a69acc458e30aab925e999e131d13d4d489487"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_biology_composite.py",
+      "current_path": "misfit/experiments/run_biology_composite.py",
+      "previous_sha256": "c5b81c41f55fbbbacbf0fc5c1736b6ce52d1ea4817d9ba666310decce58fcac1",
+      "current_sha256": "a0454812de8c801c2408ceb93edb48db8356bc0525b88c83b7fa1b2f589ba056"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_bootstrap_balanced.py",
+      "current_path": "misfit/experiments/run_bootstrap_balanced.py",
+      "previous_sha256": "40b896b23de3666c6ef69ba64268f2fbc5c10733da5bd2a7c57ae3666f3bbaca",
+      "current_sha256": "985660f219bae2a0c90380bf15e1abf864f865c56af6f71fd0a2bd9892ba34d9"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_class_env_strata_s16.py",
+      "current_path": "misfit/experiments/run_class_env_strata_s16.py",
+      "previous_sha256": "425a054a5add64a5c91bd28f2107bf9e9af33b7413f06c04a003f1336428d77b",
+      "current_sha256": "a7ca8ee022e61ca1ae55d934edecd443088f981541dec2801dfd44a7b49ea7a4"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_clinical_insight_panel.py",
+      "current_path": "misfit/experiments/run_clinical_insight_panel.py",
+      "previous_sha256": "5e4a105b7b4bdedfebd730ff742d61770a495359ccd180bbbb5ec4c918d20edc",
+      "current_sha256": "c9e493bfc94dcc7e7e06013ba57e698824ac9d89f0aaa363d35e34a3b37d3f86"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_clinical_multiseed.py",
+      "current_path": "misfit/experiments/run_clinical_multiseed.py",
+      "previous_sha256": "2269b40eebfb02e5706e0adc2490f5ea52432f59858e24b5b957387027128bdf",
+      "current_sha256": "4b11c1cc7f0939f25409c7b1213a5ac7d27cf57ba0c6ea1129cb85154b992095"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_clinical_stratified_media.py",
+      "current_path": "misfit/experiments/run_clinical_stratified_media.py",
+      "previous_sha256": "512e76f44c963f8b307f628f924dbe826855f123dfa14ed38e5d43c23128bf12",
+      "current_sha256": "0b2aa02094b2b5c188c386d2114789c1ce673ea799ea6c25f948d1892e1f0888"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_cohort_flow_demographics.py",
+      "current_path": "misfit/experiments/run_cohort_flow_demographics.py",
+      "previous_sha256": "eccae7d8bab68631ab56e52fbfd1a8b1569ea2145eab38543b14901d3c4f30b5",
+      "current_sha256": "691708c61b76df51ca540add584cd82ff39449c0484ec1e8cbdbefb462af2e55"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_crossrefit_increment.py",
+      "current_path": "misfit/experiments/run_crossrefit_increment.py",
+      "previous_sha256": "2c462b804fd9118c1671d8aff89c90fccb471c43f745e9dabfd2fa9085b9269b",
+      "current_sha256": "0cf08db24c553ec734029fc614489da6e467c64391e8f0d9448a0f4a535784b2"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_enrichment_media.py",
+      "current_path": "misfit/experiments/run_enrichment_media.py",
+      "previous_sha256": "57f7ddd60a93032c4bf450171732607e2daeea7fa1472d861f05648554b9a176",
+      "current_sha256": "de5de6e59e5073fcd90b07b9b99b31c1e2aac02cff75e0baaca3a03c5bcd28c3"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_fewshot_calibration.py",
+      "current_path": "misfit/experiments/run_fewshot_calibration.py",
+      "previous_sha256": "8e65d7e2fcaef3c40b64bc1159e0613c1cbc34e7462de4a384025750f9d88bc9",
+      "current_sha256": "393aad81eaabba4260fc7b58ad97eee23df9c4900c015957331bc915635f518e"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_fig6_replot.py",
+      "current_path": "misfit/experiments/run_fig6_replot.py",
+      "previous_sha256": "552a38cea8333c8f90287248e256dcfc472d4e4140fd68f1c1e56c32fd3d5929",
+      "current_sha256": "a7a73fc404e7e9b61b2eeccac577fa0b80bc1b128b87e2072bec024801de18b7"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_foldwise_pca_sensitivity.py",
+      "current_path": "misfit/experiments/run_foldwise_pca_sensitivity.py",
+      "previous_sha256": "ee0b65a0ef2d6d4aab30e1ddfbad39a7b233f3612021ff45f08e35fd4db06158",
+      "current_sha256": "15e8fa7ba468ae6f78621482f21935c16b1b661aef995d99c31679f661338059"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_honest_estimator_table.py",
+      "current_path": "misfit/experiments/run_honest_estimator_table.py",
+      "previous_sha256": "597ebc40a38ca8430f12fbbd27dec88cf95c33b20e132fddca8fc09537fac87f",
+      "current_sha256": "5f9b844e34fd1a5ab22eae59ba7f6f0c2fc3e3aa98bfe724ab942dea79644a9b"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_image_examples_media.py",
+      "current_path": "misfit/experiments/run_image_examples_media.py",
+      "previous_sha256": "99f2b0b45577a91c8908b9793d2dc1b1a3b3d8af4d865684df394cfe7b18360e",
+      "current_sha256": "a1f9a8fd9bc0609a2d738c68b5c1119a0f92edc59dded1652970e47d10a9cb87"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_image_examples_render.py",
+      "current_path": "misfit/experiments/run_image_examples_render.py",
+      "previous_sha256": "51f39d81c67f6c8a98face77f03c29995d88a582b1c5673b6b4bba5946ed7759",
+      "current_sha256": "597bab0712f479edcc3d7542ffcf3f99999c0cf2c84d6b56766ad0aac54e0e85"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_image_signature_media.py",
+      "current_path": "misfit/experiments/run_image_signature_media.py",
+      "previous_sha256": "9f60c6b3887cd84175fc7b2fcdeec87970781f5173ca6f578c0852a3f919da65",
+      "current_sha256": "c18da715c3fd36296de52deb0998f06f02099aaf8ba58ce7cbe4a8ff1f03b6b2"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_interpolation_ablation.py",
+      "current_path": "misfit/experiments/run_interpolation_ablation.py",
+      "previous_sha256": "15c28b0297526948b0b6a0e8ce0f181c1f1180baf9fb46ef400d406a3ff40773",
+      "current_sha256": "e94ad5e2fe4e390a6060aba7d91fadcae4bc391a57b5772f69cc5a22d7b68031"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_intervention_audit.py",
+      "current_path": "misfit/experiments/run_intervention_audit.py",
+      "previous_sha256": "edb0e7c7078622b270de8b5295ac9f2775057ee779367ea3f03a3dc36aa6a2c1",
+      "current_sha256": "0cc61829d271050cbbe70ca7a3683cb5f26f3d3a1c045b2f515dc5e288caccfc"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_limitation_fixes_media.py",
+      "current_path": "misfit/experiments/run_limitation_fixes_media.py",
+      "previous_sha256": "0bd9a90e3bd10fddf8d5892a11a8181c6dbedad8bcefa6b612bc33ff983ca255",
+      "current_sha256": "ae69bfc077373cf37abe9e76cfc7452d8cf171ceea1244519ab0042ec20452b4"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_ml_reliability_media.py",
+      "current_path": "misfit/experiments/run_ml_reliability_media.py",
+      "previous_sha256": "07895cfd8049c31991db63671debc9ef8d9950215a956615ae15242e7f8a014d",
+      "current_sha256": "1a36b0acbd892c1e3382150726b0db55f858db4a58ba17668e122ae90e9d709e"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_oasis3_cnn18_study.py",
+      "current_path": "misfit/experiments/run_oasis3_cnn18_study.py",
+      "previous_sha256": "0ba0fcdae0de78cdb56dacf1b63a74b87519918d1e84c106285bb63f59fce574",
+      "current_sha256": "e2374751c0812d2704faace6a715badb7a0a42509f53221b5b30b1694beb1ccd"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_oasis3_cnn_backbone.py",
+      "current_path": "misfit/experiments/run_oasis3_cnn_backbone.py",
+      "previous_sha256": "307c846fb616710e76ce64ef37517fb3504dcdf05343708e348c4bd526de8198",
+      "current_sha256": "728cb0bd88dfd2e473bc0982d1291a20a273a408d61218cca809b2baf223338a"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_oasis3_cnn_upweight_study.py",
+      "current_path": "misfit/experiments/run_oasis3_cnn_upweight_study.py",
+      "previous_sha256": "c146e63fea32f9267f4d0f190dff6b3a1df0f836e02212915abaf8fc26ab15bf",
+      "current_sha256": "d38ae6542d86f3ac3042f2daeba9a161dfb1df0c05f35a4e750fcf2bf3858810"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_oasis3_env_inference.py",
+      "current_path": "misfit/experiments/run_oasis3_env_inference.py",
+      "previous_sha256": "67324b8b59e9b830f07fac4a8e18c05b8095de0fe212368b9aabe35f8af0ea42",
+      "current_sha256": "9571d1d687072adcd08466be269b1c602c7f32296adb427c27ef301ea21fa67e"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_oasis3_prospective.py",
+      "current_path": "misfit/experiments/run_oasis3_prospective.py",
+      "previous_sha256": "b01cc40ef1935d5e905cf83b801b4b42f022c47ce751ed9ac89fb3a63d1496c7",
+      "current_sha256": "47762e8524586f2218f5fdfa1f6a5b4d37b7b944de6097fbe970ea9dd9e8286c"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_oasis3_signature_participant.py",
+      "current_path": "misfit/experiments/run_oasis3_signature_participant.py",
+      "previous_sha256": "43c057773d2f57ea6ad7a12e2be77253d02401e6450764da0d7da28bd97fc25d",
+      "current_sha256": "3c356e4c80a30b4cd1f87bce53c4c81e393220fde5739c25eced2b77dc329993"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_oasis3_signature_withinclass.py",
+      "current_path": "misfit/experiments/run_oasis3_signature_withinclass.py",
+      "previous_sha256": "25b6f9e433bbc686ff29365f6a2ec91c38ed209053c53939d05693d11e430169",
+      "current_sha256": "a14e286f2b5b7a6ce2b5073e9336f5770a698917312541958cb6a43157b9c3f5"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_oasis3_validation.py",
+      "current_path": "misfit/experiments/run_oasis3_validation.py",
+      "previous_sha256": "efec5cf3f5850a4f32d7a781aca1741bfce0ab8318a840828788b8351fcbedfb",
+      "current_sha256": "18ff33cba6fcc80e27044a368ea25a0af1edd404edf6a1768a5da5749a0cb380"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_operator_constraints_media.py",
+      "current_path": "misfit/experiments/run_operator_constraints_media.py",
+      "previous_sha256": "0fdbce20f0e5ee738ad71b4e127c4596f20b9469105e75bd1c02e72f73d8daac",
+      "current_sha256": "8b812ae420363788b89a8f217e3d1d865bcc4d1c33041ebdabfd7045218acdf1"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_paired_tests.py",
+      "current_path": "misfit/experiments/run_paired_tests.py",
+      "previous_sha256": "764dac650fcd295d17ebd818ed23acc77e562e77482a0c36a102674edf6e648c",
+      "current_sha256": "088495d7f02476f306c1467154c4ed6e9f6db017e9175f7541e741320e9376c3"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_perseed_dump_two_phases.py",
+      "current_path": "misfit/experiments/run_perseed_dump_two_phases.py",
+      "previous_sha256": "ac3801a3b40ef42247dbc8b51fcad31918174f22e621ab3acc90fd9cf9de48c8",
+      "current_sha256": "ef0a61d41ac50e40bc9c2d53846d62668fa1517595ab0f354b34e8cbb080c72e"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_reliability_biology_reexport.py",
+      "current_path": "misfit/experiments/run_reliability_biology_reexport.py",
+      "previous_sha256": "a804135cfe1e642046bc80b3d856f56491a830d1153b412e05336b94fc1abbf2",
+      "current_sha256": "904a89b7b55308cca89a12fd2950751ac67c0b29927272e365e34ce575224999"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_result_figures_media.py",
+      "current_path": "misfit/experiments/run_result_figures_media.py",
+      "previous_sha256": "84ddcdbf00564644e9f748c0e5a085f4d789e099fe239a4eae463d170ebc57da",
+      "current_sha256": "626760aa705c80448bd7a74aa79aea2416549beb7258de96f03cf4d26eda2cd3"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_selective_fig_pretty.py",
+      "current_path": "misfit/experiments/run_selective_fig_pretty.py",
+      "previous_sha256": "6a490de958785857b655f7b72ffecd5a6d998085a8def2c083b6f38e619a23c9",
+      "current_sha256": "aa1671e2673736b58ed3435ca74bcd3f229fec8b325c1fafaf9bbf6a6116bbaf"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_snt_encoder_check.py",
+      "current_path": "misfit/experiments/run_snt_encoder_check.py",
+      "previous_sha256": "74c3eea0bbd45a29e55f27206469e430d986d353cd08268d7bd51fc7c8a2d319",
+      "current_sha256": "b92509cef9d5ecfaea025397a2fd34e41cf4831627a89c3740019b64fcd3966c"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_sourceonly_features.py",
+      "current_path": "misfit/experiments/run_sourceonly_features.py",
+      "previous_sha256": "53bd386bfecc694fb9de18ebd0a645736e690e8b41fd581ef97f6c8cffde208e",
+      "current_sha256": "42ec5176d52b224a908be12dee402a5e62920d473dd91ded4480017910c4903d"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_subgroup_media.py",
+      "current_path": "misfit/experiments/run_subgroup_media.py",
+      "previous_sha256": "28dc49e35d756e1dfdad0a60676eb006cf788052cdc8324b466aa6b30312d59c",
+      "current_sha256": "0921806d8e12b1ec04fc0ed7baa912e5b9ede48bc1fa9df80468ec5cd9804861"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_synthetic_dissociation.py",
+      "current_path": "misfit/experiments/run_synthetic_dissociation.py",
+      "previous_sha256": "75d8a51b2ccd9b967982df4f7cf33ac7a3570b0151b6cfb7f21f1114268445fe",
+      "current_sha256": "12943b4b9f9f96d54b4fc9d4d1340072906f0d6c7489825f4954bbfecb0ca56c"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_tieaware_maps_identified.py",
+      "current_path": "misfit/experiments/run_tieaware_maps_identified.py",
+      "previous_sha256": "b556363e1af55a7f26f367d61267483e9a286d2ba9d19f068df30398c6c68abe",
+      "current_sha256": "c4a0ee44760fd5b82c30f82b4b15f517c1b0b3044834a9c49516df1e1b993969"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_training_dynamics.py",
+      "current_path": "misfit/experiments/run_training_dynamics.py",
+      "previous_sha256": "ebf66f0081a04645c51f352072c70395b8acc94c01e072ed52026a87eebe034f",
+      "current_sha256": "d99792d32a0a4dd5ebb6f5855b3a4f0cfe2bfdfb54ba75795cda1769c293c566"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_transfer_rescue.py",
+      "current_path": "misfit/experiments/run_transfer_rescue.py",
+      "previous_sha256": "ec7adda43ea75bcc6c893e499e846e88b49b4c224be6fb26146605765fc15d27",
+      "current_sha256": "120b373e034c7a2e8f5f27915cfcdae535729fa97172c7f392c6fb0c61d8fab2"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_transfer_theorem_check.py",
+      "current_path": "misfit/experiments/run_transfer_theorem_check.py",
+      "previous_sha256": "6cc880be5c16f37c598b4c8a7a706863181531f740fcd29a71c7f966a32ee131",
+      "current_sha256": "d248b6aa61519355522d6584f0296770d8e43a1ec730856297f9cf27f60211d0"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/run_ukbb_validation.py",
+      "current_path": "misfit/experiments/run_ukbb_validation.py",
+      "previous_sha256": "d5dc65e1211e2c17104179d6d961a85c50521e0025b408aa8e78a451ec935afa",
+      "current_sha256": "113941a719a8c2b61764ec0ec2a26533edbf5cc18612271568929a66e157f72d"
+    },
+    {
+      "previous_path": "phase1b_mia/experiments/verify_ukbb_abide_demo.py",
+      "current_path": "misfit/experiments/verify_ukbb_abide_demo.py",
+      "previous_sha256": "1ff3c50d23d03e2cccbcd023f3b7e95976ac939f0761251a441754700add7d9d",
+      "current_sha256": "50ef71c4f5a722987610f5b8396551a54d01f67ebb8b475e7c77daf30a7e363c"
+    },
+    {
+      "previous_path": "phase1b_mia/manuscript_analysis/README.md",
+      "current_path": "REPRODUCIBILITY.md",
+      "previous_sha256": "03aa00f76ed8eb8829269ee95bbaebe2499e760090b10e97f4da5278fd0a3882",
+      "current_sha256": "bbb97d81fa66e403ef1d4c7c7357164bdea61459ecd80d1a3068a10ba7120403",
+      "changes": [
+        "guide consolidated into REPRODUCIBILITY.md"
+      ]
+    },
+    {
+      "previous_path": "phase1b_mia/manuscript_analysis/__init__.py",
+      "current_path": "misfit/manuscript_analysis/__init__.py",
+      "previous_sha256": "dbe0029be56f76a7c43922f5b19dd826968f6558978c3d0192d79a9f5d7a2f98",
+      "current_sha256": "dbe0029be56f76a7c43922f5b19dd826968f6558978c3d0192d79a9f5d7a2f98"
+    },
+    {
+      "previous_path": "phase1b_mia/manuscript_analysis/analyze_cdr_stage.py",
+      "current_path": "misfit/manuscript_analysis/analyze_cdr_stage.py",
+      "previous_sha256": "ca083614ca74204035e995a36dc6f9a6f45a0afcf7a242368f83c924fc7cd059",
+      "current_sha256": "7a490c7381bcd18ea6a061b315ca6894c173fa088bf905795c2e319c668e1c43"
+    },
+    {
+      "previous_path": "phase1b_mia/manuscript_analysis/analyze_cnn_cdr_scanner.py",
+      "current_path": "misfit/manuscript_analysis/analyze_cnn_cdr_scanner.py",
+      "previous_sha256": "08928b059a8a36908eb3c773149c8094aed2997280744bbf5b72bc93b096b3e2",
+      "current_sha256": "08928b059a8a36908eb3c773149c8094aed2997280744bbf5b72bc93b096b3e2"
+    },
+    {
+      "previous_path": "phase1b_mia/manuscript_analysis/analyze_cnn_crossseed.py",
+      "current_path": "misfit/manuscript_analysis/analyze_cnn_crossseed.py",
+      "previous_sha256": "04c773c249e8a69cba60a405788b73593397487be5cd187f7163060ff1b95f3e",
+      "current_sha256": "e85210b0a02584451b13f76be7bdb6247f03b62392039023092dab6f453f031a"
+    },
+    {
+      "previous_path": "phase1b_mia/ortho_views/make_ortho_views.py",
+      "current_path": "misfit/ortho_views/make_ortho_views.py",
+      "previous_sha256": "093010c07c62de0773c688de3ebb9b10301dbdb39f9d44c326ae19b18b92933d",
+      "current_sha256": "e352b72f2d9bfa7ae4db2b1f0860cea20b133c6d8e034b0c74f4e266d1ed6657"
+    },
+    {
+      "previous_path": "phase1b_mia/ortho_views/reconstruct_oasis1_map.py",
+      "current_path": "misfit/ortho_views/reconstruct_oasis1_map.py",
+      "previous_sha256": "89152896c6a8eb9b3d72e8cf2fbc07c9f1e7188000ff12d533ccbdb22f4bf4ef",
+      "current_sha256": "89152896c6a8eb9b3d72e8cf2fbc07c9f1e7188000ff12d533ccbdb22f4bf4ef"
+    },
+    {
+      "previous_path": "phase1b_mia/rank_validation/README.md",
+      "current_path": "REPRODUCIBILITY.md",
+      "previous_sha256": "d10908daf9815da07f017b5acc83fe64a63922585428bc69a3044b675c76a7ec",
+      "current_sha256": "bbb97d81fa66e403ef1d4c7c7357164bdea61459ecd80d1a3068a10ba7120403",
+      "changes": [
+        "guide consolidated into REPRODUCIBILITY.md"
+      ]
+    },
+    {
+      "previous_path": "phase1b_mia/rank_validation/__init__.py",
+      "current_path": "misfit/rank_validation/__init__.py",
+      "previous_sha256": "dbe0029be56f76a7c43922f5b19dd826968f6558978c3d0192d79a9f5d7a2f98",
+      "current_sha256": "dbe0029be56f76a7c43922f5b19dd826968f6558978c3d0192d79a9f5d7a2f98"
+    },
+    {
+      "previous_path": "phase1b_mia/rank_validation/numerics/__init__.py",
+      "current_path": "misfit/rank_validation/numerics/__init__.py",
+      "previous_sha256": "dbe0029be56f76a7c43922f5b19dd826968f6558978c3d0192d79a9f5d7a2f98",
+      "current_sha256": "dbe0029be56f76a7c43922f5b19dd826968f6558978c3d0192d79a9f5d7a2f98"
+    },
+    {
+      "previous_path": "phase1b_mia/rank_validation/numerics/rank_transport.py",
+      "current_path": "misfit/rank_validation/numerics/rank_transport.py",
+      "previous_sha256": "5a14cef7b285d974eb1aaab118ae6405dc08537389e58fa5654afecd02a0fbf9",
+      "current_sha256": "5a14cef7b285d974eb1aaab118ae6405dc08537389e58fa5654afecd02a0fbf9"
+    },
+    {
+      "previous_path": "phase1b_mia/rank_validation/numerics/report_checks.py",
+      "current_path": "misfit/rank_validation/numerics/report_checks.py",
+      "previous_sha256": "9fed03dfa6be234fb56c11a05765231d1da92536a8a435ee51373c5ce3f934ce",
+      "current_sha256": "2fed2f88d554ba07c84b3b1376ec1b32ebc53c19e2f86cc7ad1ccc3cffa8e735"
+    },
+    {
+      "previous_path": "phase1b_mia/rank_validation/numerics/test_rank_transport.py",
+      "current_path": "misfit/rank_validation/numerics/test_rank_transport.py",
+      "previous_sha256": "4784644cec3124b8335930b671b7d922bff7291ceb983cac1d7152f3f9b85fd9",
+      "current_sha256": "309a0348a3abd6fdf09adf8a15a52fd5df7792f22fe1e3a2fe02bd5bf0740474"
+    },
+    {
+      "previous_path": "phase1b_mia/rank_validation/real_validation/__init__.py",
+      "current_path": "misfit/rank_validation/real_validation/__init__.py",
+      "previous_sha256": "dbe0029be56f76a7c43922f5b19dd826968f6558978c3d0192d79a9f5d7a2f98",
+      "current_sha256": "dbe0029be56f76a7c43922f5b19dd826968f6558978c3d0192d79a9f5d7a2f98"
+    },
+    {
+      "previous_path": "phase1b_mia/rank_validation/real_validation/audit_input.py",
+      "current_path": "misfit/rank_validation/real_validation/audit_input.py",
+      "previous_sha256": "e85e4cc643032e48307c5e8e414f82a90c74387684bdaf92b3910bc34358b16e",
+      "current_sha256": "dbf25d86747cbe7f7aed2caaed2b3a1820bf1edc3b8306afe5ae907cb0279914"
+    },
+    {
+      "previous_path": "phase1b_mia/rank_validation/real_validation/run_validation.py",
+      "current_path": "misfit/rank_validation/real_validation/run_validation.py",
+      "previous_sha256": "ecaa8a079fc998c042662ef54544e321c812dd0d9b324a275351425489ece8b9",
+      "current_sha256": "5b75201a51724bb96f0db960f7d9c0665b5328f056614ff21c2d6fb8de4b0991"
+    },
+    {
+      "previous_path": "phase1b_mia/rank_validation/real_validation/test_validation.py",
+      "current_path": "misfit/rank_validation/real_validation/test_validation.py",
+      "previous_sha256": "3201bc055ff64d15ff469ae402daeeeb37c3ee9c82811f48c03260f725ff6d54",
+      "current_sha256": "4aa88c4b5cd1c019d208fcd4205f8ef12dbd328ed75544a1680c26ca4435cdb5"
+    }
+  ]
+}

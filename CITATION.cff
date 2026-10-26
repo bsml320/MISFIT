@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying MISFIT manuscript."
+type: software
+title: "MISFIT: Revealing Within-Diagnosis Failure Patterns in MRI-Based Assessment of Cognitive Impairment"
+version: 0.6.1
+date-released: 2026-10-26
+license: MIT
+authors:
+  - family-names: Qu
+    given-names: Gang
+    website: https://github.com/GQ93
+  - family-names: Li
+    given-names: Guanghao
+  - family-names: Ding
+    given-names: Zhengming
+  - family-names: Zhang
+    given-names: Yipu
+  - family-names: Zhao
+    given-names: Zhongming

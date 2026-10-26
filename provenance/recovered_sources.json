@@ -1,0 +1,349 @@
+[
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "code/analysis.py",
+    "source_sha256": "9e4850a840261d6a637495fe5962008067995918dba86793d9f9d0560a89fd17",
+    "destination": "misfit/crt_study/code/analysis.py",
+    "changes": [
+      "portable paths",
+      "qualified study-local imports",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "9e4850a840261d6a637495fe5962008067995918dba86793d9f9d0560a89fd17",
+    "previous_integrated_sha256": "9e4850a840261d6a637495fe5962008067995918dba86793d9f9d0560a89fd17"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "code/calib.py",
+    "source_sha256": "e66ef70990102d5481be18ec4ee3545e42e5b99f0566e7c768b133252640bcdf",
+    "destination": "misfit/crt_study/code/calib.py",
+    "changes": [
+      "portable paths",
+      "qualified study-local imports",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "e66ef70990102d5481be18ec4ee3545e42e5b99f0566e7c768b133252640bcdf",
+    "previous_integrated_sha256": "e66ef70990102d5481be18ec4ee3545e42e5b99f0566e7c768b133252640bcdf"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "code/cohorts.py",
+    "source_sha256": "804f2f6701d2dfd6a92608ac3708c40bbde632328d8da2b02e3a7756304cb2fa",
+    "destination": "misfit/crt_study/code/cohorts.py",
+    "changes": [
+      "portable paths",
+      "qualified study-local imports",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "51c0d7603973b44dd8397775fa22bab70c244c22918bb119c6d4418a6072de13",
+    "previous_integrated_sha256": "bd5ce70447dbbe1da675a29f78bfd8914dcca74979d0c45fd86078af86093a1d"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "code/driver.py",
+    "source_sha256": "af7f9a701c641d7492717da7b4358923756de09ac7d592ccee66b3fab617d8f6",
+    "destination": "misfit/crt_study/code/driver.py",
+    "changes": [
+      "portable paths",
+      "qualified study-local imports",
+      "create output parent directories for atomic JSON writes",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "04afe7c2169580aad3391f51dd214d75e0896c9eab1df3098e90f14a43aac055",
+    "previous_integrated_sha256": "7f3b98cf171c21ceb9f40b85e6014ce1e324d52bff867cad949b79dc95b99653"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "code/features.py",
+    "source_sha256": "c8f8c89cadf7624952eda291ca0eb4ca021e58734626c7e089f0caa2ed96ede3",
+    "destination": "misfit/crt_study/code/features.py",
+    "changes": [
+      "portable paths",
+      "qualified study-local imports",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "dd0fdde099bfc47c4b6af71e85a5f732fd395bcc185c45dbda7b65b8dfd6acc3",
+    "previous_integrated_sha256": "dd5473538946d232100d689a1ee4e012c551545248d99a96e88e550103baf927"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "code/freeze_protocol.py",
+    "source_sha256": "ee89e0671d095708d65c32d1a4d1a60c39efb3839702a87b8fc54294442bac57",
+    "destination": "misfit/crt_study/code/freeze_protocol.py",
+    "changes": [
+      "portable paths",
+      "qualified study-local imports",
+      "exclude filesystem sidecars from new freeze records",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "b252eeff7b6d2517ddf6b1687bce83a3e0025c88b691f0042f97be91107a264c",
+    "previous_integrated_sha256": "a35b88d624ef1014e4e77d8593ebab67390fecfff6a348b17b6c159a1d11f6ea"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "code/model.py",
+    "source_sha256": "6f95590a7dbba2668ad210e774106a864d8cd4a33dee04d907b146e83ac7f643",
+    "destination": "misfit/crt_study/code/model.py",
+    "changes": [
+      "portable paths",
+      "qualified study-local imports",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "6f95590a7dbba2668ad210e774106a864d8cd4a33dee04d907b146e83ac7f643",
+    "previous_integrated_sha256": "6f95590a7dbba2668ad210e774106a864d8cd4a33dee04d907b146e83ac7f643"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "code/pilot_timing.py",
+    "source_sha256": "7c1fb62fd6672d492d3308c82acb2d27361171b9487a5a0ed0822e60df54acbd",
+    "destination": "misfit/crt_study/code/pilot_timing.py",
+    "changes": [
+      "portable paths",
+      "qualified study-local imports",
+      "create pilot and manifest output directories",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "29a349d9c29a7707d7f882e24916ad84f6a32ea11dd7499cd671b100353b5c61",
+    "previous_integrated_sha256": "33195730429eb98cad07668ef94b452ef7c346b919f861040c2cf84f15ad9e60"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "code/run_conf.py",
+    "source_sha256": "c8c4fcd5e3f77e5a8fdc10daa2813e84ab773ca16fec387b32893bf274ecab2f",
+    "destination": "misfit/crt_study/code/run_conf.py",
+    "changes": [
+      "portable paths",
+      "qualified study-local imports",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "90fe8affe878f9aa92e6ecca51966d08fd93f82ecfca5c46b0dabd9e8731f6a6",
+    "previous_integrated_sha256": "22750c1681783ed420ce33965b52326be0a391a22826a99f4bd7182b1f581274"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "code/run_dev.py",
+    "source_sha256": "2956834100fe3e580a844613e93010ce8e47ec41623475395fec979cf3520425",
+    "destination": "misfit/crt_study/code/run_dev.py",
+    "changes": [
+      "portable paths",
+      "qualified study-local imports",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "9f8782bf548a5924167ac9cfca28201dc0617c1572eddba4f8c2d0e45d3a878c",
+    "previous_integrated_sha256": "5052df5bf4bd6a341051780aa85fe2be57e23e007d688149d24d2033d949af55"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "code/train.py",
+    "source_sha256": "3c3ccb1c0a2d836beb2832c8826899e720c6494185c50ead497b584d3016ad20",
+    "destination": "misfit/crt_study/code/train.py",
+    "changes": [
+      "portable paths",
+      "qualified study-local imports",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "4328606a7f87bbd7f8158ba95c5c111c1586ffefcafbb76952c2a63384284990",
+    "previous_integrated_sha256": "19c402a9777e1b8c50d2c92aa11edfb4b5a46dcdf680f4f4279b0fb1dfd7d800"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "code/transport.py",
+    "source_sha256": "336614112cbb3b43d92875a22dd97d075eebfe320b36d6859e49696366ac90aa",
+    "destination": "misfit/crt_study/code/transport.py",
+    "changes": [
+      "portable paths",
+      "qualified study-local imports",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "01914462361ef8b62df21fecfb153d6deebe838d1eab472ee1e0904a63c01583",
+    "previous_integrated_sha256": "f65588ee91f19968aa2742e8542a0142750b3cfa657f52b9f1ebc49667fe3afa"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "sim/null_calibration.py",
+    "source_sha256": "61c0ee8304958660842eb7561953311cfccbb60426ebaefa5ff37e760eef7605",
+    "destination": "misfit/crt_study/sim/null_calibration.py",
+    "changes": [
+      "portable paths",
+      "qualified study-local imports",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "5ebe9220ff0e09dd67e657e2672492b5cdc32b109816f4d2fe9e43eb8fbf0e69",
+    "previous_integrated_sha256": "7d88d9291b80315669c3134fffb789aa8ffd36c0a02d0d4a8e703283b8c07bee"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "tests/smoke_e2e.py",
+    "source_sha256": "e5cec8fdea977dcd7d5938d5bb07bedbf04af42cdf2b3a5fcfd760911bbfba82",
+    "destination": "misfit/crt_study/tests/smoke_e2e.py",
+    "changes": [
+      "portable paths",
+      "qualified study-local imports",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "cc58144b43c3029d9d4f9a5eba4db70c3e01899a90071074279b13c8d67bce61",
+    "previous_integrated_sha256": "5aabb47503779044fc72ab50ca03520662104d21584eb48b51a81a06a5456e9b"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "tests/test_crt.py",
+    "source_sha256": "618050e8cc61f155b12d0fe0a07ed78cc17b55479d56eeb40bd64fa17838a75e",
+    "destination": "misfit/crt_study/tests/test_crt.py",
+    "changes": [
+      "portable paths",
+      "qualified study-local imports",
+      "CPU device fixture for synthetic tests",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "bdac9f1aeaefce7daeb3a0763ce84c733bffa095f1e92992b725f9fe05ca59a3",
+    "previous_integrated_sha256": "e76bd5cfbd98268bb9c551be0a861f54b07f64248f4ffbb026b8f60fd48d110e"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "protocol/cfg_adni.json",
+    "source_sha256": "b2d22cdd47de57b58303576a11b53f32899972d5bf7128fb867157e58250614e",
+    "destination": "misfit/crt_study/protocol/cfg_adni.json",
+    "changes": [
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "b2d22cdd47de57b58303576a11b53f32899972d5bf7128fb867157e58250614e",
+    "previous_integrated_sha256": "b2d22cdd47de57b58303576a11b53f32899972d5bf7128fb867157e58250614e"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "protocol/cfg_oasis1.json",
+    "source_sha256": "5829957d984e5933c105703b539d23dfc87f814379a6cafb6ab29d1b3d012ee6",
+    "destination": "misfit/crt_study/protocol/cfg_oasis1.json",
+    "changes": [
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "5829957d984e5933c105703b539d23dfc87f814379a6cafb6ab29d1b3d012ee6",
+    "previous_integrated_sha256": "5829957d984e5933c105703b539d23dfc87f814379a6cafb6ab29d1b3d012ee6"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "protocol/cfg_oasis3.json",
+    "source_sha256": "30152c57f64e1670b8df00372aeb0ba2b54190a70b81ed51b52f7eee2c674b83",
+    "destination": "misfit/crt_study/protocol/cfg_oasis3.json",
+    "changes": [
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "30152c57f64e1670b8df00372aeb0ba2b54190a70b81ed51b52f7eee2c674b83",
+    "previous_integrated_sha256": "30152c57f64e1670b8df00372aeb0ba2b54190a70b81ed51b52f7eee2c674b83"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "protocol/frozen_protocol.md",
+    "source_sha256": "cafd47babad33063ea5bd90eecbff0a0d2dc9b805a422542b6452c057ae528d6",
+    "destination": "misfit/crt_study/protocol/frozen_protocol.md",
+    "changes": [
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "cafd47babad33063ea5bd90eecbff0a0d2dc9b805a422542b6452c057ae528d6",
+    "previous_integrated_sha256": "cafd47babad33063ea5bd90eecbff0a0d2dc9b805a422542b6452c057ae528d6"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "protocol/DEVIATIONS.md",
+    "source_sha256": "c67dc468bcae2d299325ce9aa31cdd3c4b37466d7170bf2829ad3d35b6027521",
+    "destination": "misfit/crt_study/protocol/DEVIATIONS.md",
+    "changes": [
+      "Removed embedded historical result values from reporting/protocol text; retained analysis and training settings.",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "1c1fda29c5c6d8334af17f41c22e3159e6122287a40172a56b3f6e769784a90c",
+    "previous_integrated_sha256": "1c1fda29c5c6d8334af17f41c22e3159e6122287a40172a56b3f6e769784a90c"
+  },
+  {
+    "archive": "crt_study_package_20261018.zip",
+    "archive_sha256": "542c2c62690831fbaea3473c0ac378a844b9064d7e893c531c842523afd7874b",
+    "source_member": "protocol/PROTOCOL_FROZEN.txt",
+    "source_sha256": "85274511ed2a0b2e757ba084fb1be2756a2c6fb8abcf47f199bcd558f720f50d",
+    "destination": "provenance/crt_original_freeze.json",
+    "changes": [
+      "stored as historical provenance, not an active run gate",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "85274511ed2a0b2e757ba084fb1be2756a2c6fb8abcf47f199bcd558f720f50d",
+    "previous_integrated_sha256": "85274511ed2a0b2e757ba084fb1be2756a2c6fb8abcf47f199bcd558f720f50d"
+  },
+  {
+    "archive": "misfit_revision_kit_20261020.zip",
+    "archive_sha256": "2506343682ad92257b3b0d2946ad70cd993a5536919b1932f1236b99c825ef81",
+    "source_member": "5_experiment_scripts/run_oasis3_cnn18_study.py",
+    "source_sha256": "27ed705f2bc778bdfdebb11af9e6a6c781c8bd2f5d1c35ea5511d6a49f3f4522",
+    "destination": "misfit/experiments/run_oasis3_cnn18_study.py",
+    "changes": [
+      "portable paths",
+      "caller-selected CUDA visibility",
+      "qualified backbone import",
+      "create results directory before execution",
+      "Removed embedded historical result values from reporting/protocol text; retained analysis and training settings.",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "e2374751c0812d2704faace6a715badb7a0a42509f53221b5b30b1694beb1ccd",
+    "previous_integrated_sha256": "0ba0fcdae0de78cdb56dacf1b63a74b87519918d1e84c106285bb63f59fce574"
+  },
+  {
+    "archive": "misfit_revision_kit_20261020.zip",
+    "archive_sha256": "2506343682ad92257b3b0d2946ad70cd993a5536919b1932f1236b99c825ef81",
+    "source_member": "5_experiment_scripts/run_oasis3_cnn_upweight_study.py",
+    "source_sha256": "1656d263f1d17777cf78633f4fe3a42ce079a09748fb6ae6e5e6f6aa73333985",
+    "destination": "misfit/experiments/run_oasis3_cnn_upweight_study.py",
+    "changes": [
+      "portable paths",
+      "caller-selected CUDA visibility",
+      "qualified backbone import",
+      "create results directory before execution",
+      "Removed embedded historical result values from reporting/protocol text; retained analysis and training settings.",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "d38ae6542d86f3ac3042f2daeba9a161dfb1df0c05f35a4e750fcf2bf3858810",
+    "previous_integrated_sha256": "c146e63fea32f9267f4d0f190dff6b3a1df0f836e02212915abaf8fc26ab15bf"
+  },
+  {
+    "archive": "misfit_revision_kit_20261020.zip",
+    "archive_sha256": "2506343682ad92257b3b0d2946ad70cd993a5536919b1932f1236b99c825ef81",
+    "source_member": "1_register/PRESPEC_cnn18_20261010.md",
+    "source_sha256": "5ee404d51d446c7327d6ec9b440ec1369e930da1d4d7bc0ab5923e0e4d440583",
+    "destination": "provenance/protocols/PRESPEC_cnn18_20261010.md",
+    "changes": [
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "5ee404d51d446c7327d6ec9b440ec1369e930da1d4d7bc0ab5923e0e4d440583",
+    "previous_integrated_sha256": "5ee404d51d446c7327d6ec9b440ec1369e930da1d4d7bc0ab5923e0e4d440583"
+  },
+  {
+    "archive": "misfit_revision_kit_20261020.zip",
+    "archive_sha256": "2506343682ad92257b3b0d2946ad70cd993a5536919b1932f1236b99c825ef81",
+    "source_member": "1_register/PRESPEC_cnn_upweight_20261011.md",
+    "source_sha256": "e55e877b4b6fa29fe941d9e0c28c0aefbc85bcefe17d0a25cb2323d841ae6359",
+    "destination": "provenance/protocols/PRESPEC_cnn_upweight_20261011.md",
+    "changes": [
+      "Removed embedded historical result values from reporting/protocol text; retained analysis and training settings.",
+      "paper-only misfit package paths and imports"
+    ],
+    "integrated_sha256": "fc2b0dac60ba41804094fe133633bfcc301b622dd2ada00fd4f1d6e442c251bb",
+    "previous_integrated_sha256": "fc2b0dac60ba41804094fe133633bfcc301b622dd2ada00fd4f1d6e442c251bb"
+  }
+]

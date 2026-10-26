@@ -1,0 +1,134 @@
+[
+  {
+    "source": "MIA_MISFIT_REFINEMENT_20261009/00_PROJECT/scripts/analyze_cdr_stage.py",
+    "source_sha256": "ae7d56b892de51e8389fee9b04be882f8ba1316002410f3c130ab85a90839d1f",
+    "destination": "misfit/manuscript_analysis/analyze_cdr_stage.py",
+    "integrated_sha256": "7a490c7381bcd18ea6a061b315ca6894c173fa088bf905795c2e319c668e1c43",
+    "changes": [
+      "portable entry points and package imports; documented input compatibility where applicable",
+      "paper-only misfit package paths and imports"
+    ],
+    "previous_integrated_sha256": "ca083614ca74204035e995a36dc6f9a6f45a0afcf7a242368f83c924fc7cd059"
+  },
+  {
+    "source": "MIA_MISFIT_REFINEMENT_20261009/00_PROJECT/scripts/analyze_cnn_cdr_scanner.py",
+    "source_sha256": "9e4da47650151f612b41d8fc657bf372b80bf5a026fd926f049b4b97703b80ca",
+    "destination": "misfit/manuscript_analysis/analyze_cnn_cdr_scanner.py",
+    "integrated_sha256": "08928b059a8a36908eb3c773149c8094aed2997280744bbf5b72bc93b096b3e2",
+    "changes": [
+      "portable entry points and package imports; documented input compatibility where applicable",
+      "paper-only misfit package paths and imports"
+    ],
+    "previous_integrated_sha256": "08928b059a8a36908eb3c773149c8094aed2997280744bbf5b72bc93b096b3e2"
+  },
+  {
+    "source": "MIA_MISFIT_REFINEMENT_20261009/00_PROJECT/scripts/analyze_cnn_crossseed.py",
+    "source_sha256": "73e494eb30a8132933814c4a0582243facd123ebe006f8f87901a57cce2e8707",
+    "destination": "misfit/manuscript_analysis/analyze_cnn_crossseed.py",
+    "integrated_sha256": "e85210b0a02584451b13f76be7bdb6247f03b62392039023092dab6f453f031a",
+    "changes": [
+      "portable entry points and package imports; documented input compatibility where applicable",
+      "paper-only misfit package paths and imports"
+    ],
+    "previous_integrated_sha256": "04c773c249e8a69cba60a405788b73593397487be5cd187f7163060ff1b95f3e"
+  },
+  {
+    "source": "MIA_MISFIT_REFINEMENT_20261009/00_PROJECT/tests/test_cdr_stage_analysis.py",
+    "source_sha256": "bc9a4edd133e691498f27b4d4dea039fd1f336041e41454918b36c418831a1f3",
+    "destination": "tests/test_cdr_stage_analysis.py",
+    "integrated_sha256": "3305429a4d5758b3181196a8c41e76c28b0719aebf69da47d2d4af9607bf9662",
+    "changes": [
+      "portable entry points and package imports; documented input compatibility where applicable",
+      "paper-only misfit package paths and imports"
+    ],
+    "previous_integrated_sha256": "82c9b130c0532912f1af6b394f0d1d30a9378fd1ae9510972a97dec3bbf4a53b"
+  },
+  {
+    "source": "MIA_MISFIT_REFINEMENT_20261009/00_PROJECT/tests/test_cnn_cdr_scanner.py",
+    "source_sha256": "3e5c2249a0ddb4dcd495b78bdba35eda784f005aaf8e1ef993a2118da9c132c8",
+    "destination": "tests/test_cnn_cdr_scanner.py",
+    "integrated_sha256": "4346bb3c80946ad38ef71ac587f1d7b64bee22452320ce31befe85e3e6d04a90",
+    "changes": [
+      "portable entry points and package imports; documented input compatibility where applicable",
+      "paper-only misfit package paths and imports"
+    ],
+    "previous_integrated_sha256": "4d5f56cccaed542ad37eec04f2092e61378891e972e4e8f65cbaa88840fa35fc"
+  },
+  {
+    "source": "MIA_MISFIT_REFINEMENT_20261009/00_PROJECT/tests/test_cnn_crossseed.py",
+    "source_sha256": "b1458ae74fb452e9f80a39eaac5e949914132cf2d50fdd09b0214cb0d4391f23",
+    "destination": "tests/test_cnn_crossseed.py",
+    "integrated_sha256": "442ae6b95c18119ce9e9a1b392328d3f4049e4f0cd96949431f6f16bd2d387fb",
+    "changes": [
+      "portable entry points and package imports; documented input compatibility where applicable",
+      "paper-only misfit package paths and imports"
+    ],
+    "previous_integrated_sha256": "b0486251b7da37e2ffb16b0b7682689c8ab3d2743721ce99671100b8ef3c2f0d"
+  },
+  {
+    "source": "MISFIT_THEORY_20261018/numerics/rank_transport.py",
+    "source_sha256": "5a14cef7b285d974eb1aaab118ae6405dc08537389e58fa5654afecd02a0fbf9",
+    "destination": "misfit/rank_validation/numerics/rank_transport.py",
+    "integrated_sha256": "5a14cef7b285d974eb1aaab118ae6405dc08537389e58fa5654afecd02a0fbf9",
+    "changes": [
+      "portable entry points and package imports; documented input compatibility where applicable",
+      "paper-only misfit package paths and imports"
+    ],
+    "previous_integrated_sha256": "5a14cef7b285d974eb1aaab118ae6405dc08537389e58fa5654afecd02a0fbf9"
+  },
+  {
+    "source": "MISFIT_THEORY_20261018/numerics/report_checks.py",
+    "source_sha256": "c111fa38e70c9e613cb9cc5f9e02cc5c3d329633fab653cfaf76ea4303100cdb",
+    "destination": "misfit/rank_validation/numerics/report_checks.py",
+    "integrated_sha256": "2fed2f88d554ba07c84b3b1376ec1b32ebc53c19e2f86cc7ad1ccc3cffa8e735",
+    "changes": [
+      "portable entry points and package imports; documented input compatibility where applicable",
+      "paper-only misfit package paths and imports"
+    ],
+    "previous_integrated_sha256": "9fed03dfa6be234fb56c11a05765231d1da92536a8a435ee51373c5ce3f934ce"
+  },
+  {
+    "source": "MISFIT_THEORY_20261018/numerics/test_rank_transport.py",
+    "source_sha256": "c2d305a8fbdf2b750df6181e7adec2672bf9ae2bf1179b9672a808b115c93063",
+    "destination": "misfit/rank_validation/numerics/test_rank_transport.py",
+    "integrated_sha256": "309a0348a3abd6fdf09adf8a15a52fd5df7792f22fe1e3a2fe02bd5bf0740474",
+    "changes": [
+      "portable entry points and package imports; documented input compatibility where applicable",
+      "paper-only misfit package paths and imports"
+    ],
+    "previous_integrated_sha256": "4784644cec3124b8335930b671b7d922bff7291ceb983cac1d7152f3f9b85fd9"
+  },
+  {
+    "source": "MISFIT_THEORY_20261018/real_validation/audit_input.py",
+    "source_sha256": "31b2960f3790d8394e1ad0aff3da2ceb5fa31a9e837d81a022aa99ceabe7c2f8",
+    "destination": "misfit/rank_validation/real_validation/audit_input.py",
+    "integrated_sha256": "dbf25d86747cbe7f7aed2caaed2b3a1820bf1edc3b8306afe5ae907cb0279914",
+    "changes": [
+      "portable entry points and package imports; documented input compatibility where applicable",
+      "paper-only misfit package paths and imports"
+    ],
+    "previous_integrated_sha256": "e85e4cc643032e48307c5e8e414f82a90c74387684bdaf92b3910bc34358b16e"
+  },
+  {
+    "source": "MISFIT_THEORY_20261018/real_validation/run_validation.py",
+    "source_sha256": "816be3c24643705641344296d87f11af2f6f83237018d867ce2d5e2243365518",
+    "destination": "misfit/rank_validation/real_validation/run_validation.py",
+    "integrated_sha256": "5b75201a51724bb96f0db960f7d9c0665b5328f056614ff21c2d6fb8de4b0991",
+    "changes": [
+      "portable entry points and package imports; documented input compatibility where applicable",
+      "paper-only misfit package paths and imports"
+    ],
+    "previous_integrated_sha256": "ecaa8a079fc998c042662ef54544e321c812dd0d9b324a275351425489ece8b9"
+  },
+  {
+    "source": "MISFIT_THEORY_20261018/real_validation/test_validation.py",
+    "source_sha256": "fc56b3fd58492556d96a36df9c9cd553a5b41f385777a8940f53961cffa48342",
+    "destination": "misfit/rank_validation/real_validation/test_validation.py",
+    "integrated_sha256": "4aa88c4b5cd1c019d208fcd4205f8ef12dbd328ed75544a1680c26ca4435cdb5",
+    "changes": [
+      "portable entry points and package imports; documented input compatibility where applicable",
+      "paper-only misfit package paths and imports"
+    ],
+    "previous_integrated_sha256": "3201bc055ff64d15ff469ae402daeeeb37c3ee9c82811f48c03260f725ff6d54"
+  }
+]

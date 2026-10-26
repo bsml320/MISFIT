@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "misfit-research"
+version = "0.6.1"
+description = "Research code for within-diagnosis fitting difficulty and MRI classifier failures"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+  {name = "Gang Qu"}, {name = "Guanghao Li"}, {name = "Zhengming Ding"},
+  {name = "Yipu Zhang"}, {name = "Zhongming Zhao"},
+]
+dependencies = [
+  "torch>=2.2", "numpy>=1.26,<3", "scipy>=1.11",
+  "scikit-learn>=1.4", "pandas>=2.1", "nibabel>=5.2",
+  "nilearn>=0.10", "matplotlib>=3.8", "seaborn>=0.13", "PyYAML>=6",
+  "statsmodels>=0.14"
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+cnn = ["torchvision>=0.17"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["misfit*"]
+namespaces = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "misfit/crt_study/tests", "misfit/rank_validation"]
+addopts = "-ra -m \"not slow\""
+markers = ["slow: requires authorized cohort volumes and manifests"]
+
+[tool.setuptools.package-data]
+"misfit.crt_study" = ["protocol/*.json", "protocol/*.md"]
